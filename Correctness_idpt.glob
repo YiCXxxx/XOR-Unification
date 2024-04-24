@@ -1,0 +1,18 @@
+DIGEST 287558fe83afeef7ab5eb66d4634f222
+FXORUnif.Correctness_idpt
+R28:38 XORUnif.Unification <> <> lib
+prf 52:63 <> XORunif_idpt
+R76:79 XORUnif.Unification <> eqns def
+binder 72:74 <> eqs:1
+R85:91 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R98:99 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R95:97 XORUnif.Substitution <> sub def
+binder 92:93 <> sb:2
+R128:133 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R118:120 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R100:113 XORUnif.Unification <> XORUnification def
+R115:117 XORUnif.Correctness_idpt <> eqs:1 var
+R121:124 Coq.Init.Datatypes <> Some constr
+R126:127 XORUnif.Correctness_idpt <> sb:2 var
+R134:143 XORUnif.Substitution <> idempotent def
+R145:146 XORUnif.Correctness_idpt <> sb:2 var

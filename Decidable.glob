@@ -1,0 +1,663 @@
+DIGEST 759edb6fbf2f41f9ef31aee6b3dba0d3
+FXORUnif.Decidable
+R847:850 Coq.Lists.List <> <> lib
+R862:874 Coq.Lists.List ListNotations <> mod
+R901:904 Coq.Bool.Bool <> <> lib
+R962:972 Coq.Arith.Compare_dec <> <> lib
+ind 1122:1126 <> Decbl
+constr 1142:1144 <> dcd
+rec 1122:1126 <> Decbl
+proj 1142:1144 <> dcd
+binder 1129:1129 <> P:1
+R1148:1148 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1150:1154 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1158:1158 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1149:1149 XORUnif.Decidable <> P:1 var
+R1155:1156 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1157:1157 XORUnif.Decidable <> P:1 var
+R1183:1187 XORUnif.Decidable <> Decbl class
+ind 1205:1211 <> DecblEq
+constr 1227:1232 <> eq_dec
+rec 1205:1211 <> DecblEq
+proj 1227:1232 <> eq_dec
+binder 1214:1214 <> T:4
+R1249:1249 XORUnif.Decidable <> T:4 var
+binder 1244:1244 <> x:6
+binder 1246:1246 <> y:7
+R1254:1255 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1261:1267 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1274:1275 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1257:1259 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1256:1256 XORUnif.Decidable <> x:6 var
+R1260:1260 XORUnif.Decidable <> y:7 var
+R1269:1272 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1268:1268 XORUnif.Decidable <> x:6 var
+R1273:1273 XORUnif.Decidable <> y:7 var
+R1300:1306 XORUnif.Decidable <> DecblEq class
+R2502:2506 XORUnif.Decidable <> Decbl class
+R2550:2552 XORUnif.Decidable <> dcd def
+R2550:2552 XORUnif.Decidable <> dcd def
+def 2845:2856 <> beq_to_eqdec
+binder 2861:2861 <> T:9
+R2879:2882 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2878:2878 XORUnif.Decidable <> T:9 var
+R2884:2887 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2883:2883 XORUnif.Decidable <> T:9 var
+R2888:2891 Coq.Init.Datatypes <> bool ind
+binder 2873:2875 <> beq:10
+R2920:2920 XORUnif.Decidable <> T:9 var
+binder 2914:2914 <> x:11
+binder 2916:2916 <> y:12
+R2938:2942 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2931:2933 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2924:2926 XORUnif.Decidable <> beq:10 var
+R2930:2930 XORUnif.Decidable <> y:12 var
+R2928:2928 XORUnif.Decidable <> x:11 var
+R2934:2937 Coq.Init.Datatypes <> true constr
+R2944:2944 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2943:2943 XORUnif.Decidable <> x:11 var
+R2945:2945 XORUnif.Decidable <> y:12 var
+binder 2897:2902 <> beq_ok:13
+R2957:2957 XORUnif.Decidable <> T:9 var
+binder 2951:2951 <> x:14
+binder 2953:2953 <> y:15
+R2963:2963 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2967:2969 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2974:2974 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2965:2965 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2964:2964 XORUnif.Decidable <> x:14 var
+R2966:2966 XORUnif.Decidable <> y:15 var
+R2970:2970 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2972:2972 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2971:2971 XORUnif.Decidable <> x:14 var
+R2973:2973 XORUnif.Decidable <> y:15 var
+R3095:3097 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3098:3101 Coq.Init.Datatypes <> true constr
+R3095:3097 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3098:3101 Coq.Init.Datatypes <> true constr
+def 3292:3306 <> sumbool_to_bool
+binder 3319:3319 <> P:16
+binder 3321:3321 <> Q:17
+R3340:3343 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3331:3331 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3333:3337 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3339:3339 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3332:3332 XORUnif.Decidable <> P:16 var
+R3338:3338 XORUnif.Decidable <> Q:17 var
+R3344:3347 Coq.Init.Datatypes <> bool ind
+binder 3358:3358 <> P:18
+binder 3360:3360 <> Q:19
+binder 3362:3363 <> sb:20
+R3371:3372 XORUnif.Decidable <> sb:20 var
+R3389:3393 Coq.Init.Datatypes <> false constr
+R3379:3382 Coq.Init.Datatypes <> true constr
+R3407:3421 XORUnif.Decidable <> sumbool_to_bool def
+R3407:3421 XORUnif.Decidable <> sumbool_to_bool def
+prf 3441:3468 <> sumbool_to_bool_correct_left
+binder 3474:3474 <> P:21
+binder 3476:3476 <> Q:22
+R3492:3492 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3494:3498 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3500:3500 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3493:3493 XORUnif.Decidable <> P:21 var
+R3499:3499 XORUnif.Decidable <> Q:22 var
+binder 3486:3487 <> sb:23
+R3539:3542 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3507:3507 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3531:3534 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3509:3523 XORUnif.Decidable <> sumbool_to_bool def
+R3525:3525 XORUnif.Decidable <> P:21 var
+R3527:3527 XORUnif.Decidable <> Q:22 var
+R3529:3530 XORUnif.Decidable <> sb:23 var
+R3535:3538 Coq.Init.Datatypes <> true constr
+R3543:3543 XORUnif.Decidable <> P:21 var
+R3576:3590 XORUnif.Decidable <> sumbool_to_bool def
+prf 3642:3670 <> sumbool_to_bool_correct_right
+binder 3675:3675 <> P:24
+binder 3677:3677 <> Q:25
+R3693:3693 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3695:3699 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3701:3701 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3694:3694 XORUnif.Decidable <> P:24 var
+R3700:3700 XORUnif.Decidable <> Q:25 var
+binder 3687:3688 <> sb:26
+R3741:3744 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3708:3708 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3732:3735 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3710:3724 XORUnif.Decidable <> sumbool_to_bool def
+R3726:3726 XORUnif.Decidable <> P:24 var
+R3728:3728 XORUnif.Decidable <> Q:25 var
+R3730:3731 XORUnif.Decidable <> sb:26 var
+R3736:3740 Coq.Init.Datatypes <> false constr
+R3745:3745 XORUnif.Decidable <> Q:25 var
+R3778:3792 XORUnif.Decidable <> sumbool_to_bool def
+def 3951:3961 <> dec_to_bool
+binder 3967:3967 <> P:27
+R3982:3982 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3984:3988 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3992:3992 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3983:3983 XORUnif.Decidable <> P:27 var
+R3989:3990 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3991:3991 XORUnif.Decidable <> P:27 var
+binder 3978:3979 <> sb:28
+R4001:4015 XORUnif.Decidable <> sumbool_to_bool def
+R4017:4017 XORUnif.Decidable <> P:27 var
+R4020:4020 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4021:4021 XORUnif.Decidable <> P:27 var
+R4024:4025 XORUnif.Decidable <> sb:28 var
+R4038:4048 XORUnif.Decidable <> dec_to_bool def
+R4038:4048 XORUnif.Decidable <> dec_to_bool def
+prf 4064:4087 <> dec_to_bool_correct_true
+binder 4089:4089 <> P:29
+binder 4091:4092 <> sb:30
+R4124:4128 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4098:4098 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4116:4119 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4100:4110 XORUnif.Decidable <> dec_to_bool def
+R4112:4112 XORUnif.Decidable <> P:29 var
+R4114:4115 XORUnif.Decidable <> sb:30 var
+R4120:4123 Coq.Init.Datatypes <> true constr
+R4129:4129 XORUnif.Decidable <> P:29 var
+R4160:4170 XORUnif.Decidable <> dec_to_bool def
+R4183:4210 XORUnif.Decidable <> sumbool_to_bool_correct_left thm
+R4183:4210 XORUnif.Decidable <> sumbool_to_bool_correct_left thm
+R4238:4248 XORUnif.Decidable <> dec_to_bool def
+R4261:4277 Coq.Bool.Bool <> not_false_is_true thm
+R4261:4277 Coq.Bool.Bool <> not_false_is_true thm
+R4308:4336 XORUnif.Decidable <> sumbool_to_bool_correct_right thm
+R4341:4341 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4308:4336 XORUnif.Decidable <> sumbool_to_bool_correct_right thm
+R4341:4341 Coq.Init.Logic <> ::type_scope:'~'_x not
+prf 4377:4401 <> dec_to_bool_correct_false
+binder 4403:4403 <> P:31
+binder 4405:4406 <> sb:32
+R4439:4444 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4448:4448 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4412:4412 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4430:4433 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4414:4424 XORUnif.Decidable <> dec_to_bool def
+R4426:4426 XORUnif.Decidable <> P:31 var
+R4428:4429 XORUnif.Decidable <> sb:32 var
+R4434:4438 Coq.Init.Datatypes <> false constr
+R4445:4446 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4447:4447 XORUnif.Decidable <> P:31 var
+R4473:4496 XORUnif.Decidable <> dec_to_bool_correct_true thm
+R4473:4496 XORUnif.Decidable <> dec_to_bool_correct_true thm
+R4520:4537 Coq.Bool.Bool <> not_true_iff_false thm
+R4540:4550 XORUnif.Decidable <> dec_to_bool def
+R4520:4537 Coq.Bool.Bool <> not_true_iff_false thm
+R4540:4550 XORUnif.Decidable <> dec_to_bool def
+inst 4661:4668 <> True_dec
+R4676:4680 XORUnif.Decidable <> Decbl class
+R4682:4685 Coq.Init.Logic <> True ind
+R4691:4694 Coq.Init.Specif <> left constr
+R4696:4696 Coq.Init.Logic <> I constr
+inst 4720:4728 <> False_dec
+R4736:4740 XORUnif.Decidable <> Decbl class
+R4742:4746 Coq.Init.Logic <> False ind
+R4751:4755 Coq.Init.Specif <> right constr
+binder 4762:4762 <> A:33
+R4767:4767 XORUnif.Decidable <> A:33 var
+inst 4792:4799 <> impl_dec
+binder 4802:4802 <> P:34
+binder 4804:4804 <> Q:35
+R4827:4830 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4820:4824 XORUnif.Decidable <> Decbl class
+R4826:4826 XORUnif.Decidable <> P:34 var
+R4838:4841 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4831:4835 XORUnif.Decidable <> Decbl class
+R4837:4837 XORUnif.Decidable <> Q:35 var
+R4842:4846 XORUnif.Decidable <> Decbl class
+R4850:4853 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4849:4849 XORUnif.Decidable <> P:34 var
+R4854:4854 XORUnif.Decidable <> Q:35 var
+R4876:4880 XORUnif.Decidable <> Decbl class
+inst 4921:4927 <> and_dec
+binder 4930:4930 <> P:36
+binder 4932:4932 <> Q:37
+R4955:4958 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4948:4952 XORUnif.Decidable <> Decbl class
+R4954:4954 XORUnif.Decidable <> P:36 var
+R4966:4969 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4959:4963 XORUnif.Decidable <> Decbl class
+R4965:4965 XORUnif.Decidable <> Q:37 var
+R4970:4974 XORUnif.Decidable <> Decbl class
+R4978:4981 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4977:4977 XORUnif.Decidable <> P:36 var
+R4982:4982 XORUnif.Decidable <> Q:37 var
+R5003:5007 XORUnif.Decidable <> Decbl class
+inst 5048:5053 <> or_dec
+binder 5056:5056 <> P:38
+binder 5058:5058 <> Q:39
+R5080:5083 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5073:5077 XORUnif.Decidable <> Decbl class
+R5079:5079 XORUnif.Decidable <> P:38 var
+R5091:5094 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5084:5088 XORUnif.Decidable <> Decbl class
+R5090:5090 XORUnif.Decidable <> Q:39 var
+R5095:5099 XORUnif.Decidable <> Decbl class
+R5103:5106 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5102:5102 XORUnif.Decidable <> P:38 var
+R5107:5107 XORUnif.Decidable <> Q:39 var
+R5128:5132 XORUnif.Decidable <> Decbl class
+inst 5173:5179 <> not_dec
+binder 5182:5182 <> P:40
+R5204:5207 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5197:5201 XORUnif.Decidable <> Decbl class
+R5203:5203 XORUnif.Decidable <> P:40 var
+R5208:5212 XORUnif.Decidable <> Decbl class
+R5215:5216 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5217:5217 XORUnif.Decidable <> P:40 var
+R5237:5241 XORUnif.Decidable <> Decbl class
+inst 5284:5290 <> iff_dec
+binder 5293:5293 <> P:41
+binder 5295:5295 <> Q:42
+R5317:5320 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5310:5314 XORUnif.Decidable <> Decbl class
+R5316:5316 XORUnif.Decidable <> P:41 var
+R5328:5331 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5321:5325 XORUnif.Decidable <> Decbl class
+R5327:5327 XORUnif.Decidable <> Q:42 var
+R5332:5336 XORUnif.Decidable <> Decbl class
+R5340:5344 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5339:5339 XORUnif.Decidable <> P:41 var
+R5345:5345 XORUnif.Decidable <> Q:42 var
+R5366:5370 XORUnif.Decidable <> Decbl class
+prf 5540:5546 <> dec_DN'
+binder 5548:5548 <> P:43
+R5562:5565 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5555:5559 XORUnif.Decidable <> Decbl class
+R5561:5561 XORUnif.Decidable <> P:43 var
+R5570:5573 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5566:5566 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5567:5568 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5569:5569 XORUnif.Decidable <> P:43 var
+R5574:5574 XORUnif.Decidable <> P:43 var
+R5594:5598 XORUnif.Decidable <> Decbl class
+prf 5621:5626 <> dec_DN
+binder 5629:5629 <> P:44
+R5642:5646 XORUnif.Decidable <> Decbl class
+R5648:5648 XORUnif.Decidable <> P:44 var
+binder 5639:5639 <> H:45
+R5660:5663 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5656:5656 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5657:5658 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5659:5659 XORUnif.Decidable <> P:44 var
+R5664:5664 XORUnif.Decidable <> P:44 var
+R5684:5688 XORUnif.Decidable <> Decbl class
+prf 5720:5729 <> dec_DM_and
+binder 5731:5731 <> P:46
+binder 5733:5733 <> Q:47
+R5748:5751 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5741:5745 XORUnif.Decidable <> Decbl class
+R5747:5747 XORUnif.Decidable <> P:46 var
+R5759:5762 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5752:5756 XORUnif.Decidable <> Decbl class
+R5758:5758 XORUnif.Decidable <> Q:47 var
+R5773:5776 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5763:5765 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5772:5772 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5767:5770 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5766:5766 XORUnif.Decidable <> P:46 var
+R5771:5771 XORUnif.Decidable <> Q:47 var
+R5780:5783 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5777:5778 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5779:5779 XORUnif.Decidable <> P:46 var
+R5784:5785 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5786:5786 XORUnif.Decidable <> Q:47 var
+R5806:5810 XORUnif.Decidable <> Decbl class
+prf 5833:5843 <> dec_DM_impl
+binder 5845:5845 <> P:48
+binder 5847:5847 <> Q:49
+R5862:5865 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5855:5859 XORUnif.Decidable <> Decbl class
+R5861:5861 XORUnif.Decidable <> P:48 var
+R5873:5876 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5866:5870 XORUnif.Decidable <> Decbl class
+R5872:5872 XORUnif.Decidable <> Q:49 var
+R5887:5890 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5877:5879 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5886:5886 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5881:5884 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5880:5880 XORUnif.Decidable <> P:48 var
+R5885:5885 XORUnif.Decidable <> Q:49 var
+R5892:5895 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5891:5891 XORUnif.Decidable <> P:48 var
+R5896:5897 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5898:5898 XORUnif.Decidable <> Q:49 var
+R5918:5922 XORUnif.Decidable <> Decbl class
+prf 5945:5956 <> dec_prop_iff
+binder 5959:5959 <> P:50
+binder 5961:5961 <> Q:51
+R5976:5976 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5984:5988 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5978:5982 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5977:5977 XORUnif.Decidable <> P:50 var
+R5983:5983 XORUnif.Decidable <> Q:51 var
+R5996:5999 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5989:5993 XORUnif.Decidable <> Decbl class
+R5995:5995 XORUnif.Decidable <> P:50 var
+R6000:6004 XORUnif.Decidable <> Decbl class
+R6006:6006 XORUnif.Decidable <> Q:51 var
+R6025:6029 XORUnif.Decidable <> Decbl class
+inst 6113:6122 <> nat_le_dec
+R6131:6133 Coq.Init.Datatypes <> nat ind
+binder 6125:6125 <> x:52
+binder 6127:6127 <> y:53
+R6138:6142 XORUnif.Decidable <> Decbl class
+R6146:6149 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R6145:6145 XORUnif.Decidable <> x:52 var
+R6150:6150 XORUnif.Decidable <> y:53 var
+R6159:6164 Coq.Arith.Compare_dec <> le_dec thm
+inst 6223:6234 <> decbleq_bool
+R6240:6246 XORUnif.Decidable <> DecblEq class
+R6248:6251 Coq.Init.Datatypes <> bool ind
+inst 6327:6337 <> decbleq_nat
+R6343:6349 XORUnif.Decidable <> DecblEq class
+R6351:6353 Coq.Init.Datatypes <> nat ind
+inst 6428:6439 <> decbleq_prod
+binder 6442:6442 <> A:54
+binder 6444:6444 <> B:55
+R6458:6458 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6468:6472 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6459:6465 XORUnif.Decidable <> DecblEq class
+R6467:6467 XORUnif.Decidable <> A:54 var
+R6473:6473 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6483:6487 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6474:6480 XORUnif.Decidable <> DecblEq class
+R6482:6482 XORUnif.Decidable <> B:55 var
+R6488:6494 XORUnif.Decidable <> DecblEq class
+R6498:6500 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6497:6497 XORUnif.Decidable <> A:54 var
+R6501:6501 XORUnif.Decidable <> B:55 var
+R6557:6562 XORUnif.Decidable <> eq_dec def
+R6557:6562 XORUnif.Decidable <> eq_dec def
+R6601:6606 XORUnif.Decidable <> eq_dec def
+R6601:6606 XORUnif.Decidable <> eq_dec def
+inst 6712:6725 <> decbleq_option
+binder 6728:6728 <> A:56
+R6750:6753 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6741:6747 XORUnif.Decidable <> DecblEq class
+R6749:6749 XORUnif.Decidable <> A:56 var
+R6754:6760 XORUnif.Decidable <> DecblEq class
+R6763:6768 Coq.Init.Datatypes <> option ind
+R6770:6770 XORUnif.Decidable <> A:56 var
+R6864:6869 XORUnif.Decidable <> eq_dec def
+R6864:6869 XORUnif.Decidable <> eq_dec def
+inst 7079:7090 <> decbleq_list
+binder 7093:7093 <> A:57
+R7115:7118 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7106:7112 XORUnif.Decidable <> DecblEq class
+R7114:7114 XORUnif.Decidable <> A:57 var
+R7119:7125 XORUnif.Decidable <> DecblEq class
+R7128:7131 Coq.Init.Datatypes <> list ind
+R7133:7133 XORUnif.Decidable <> A:57 var
+R7170:7185 Coq.Lists.List <> list_eq_dec thm
+R7170:7185 Coq.Lists.List <> list_eq_dec thm
+inst 7230:7240 <> list_in_dec
+binder 7243:7243 <> X:58
+R7258:7258 XORUnif.Decidable <> X:58 var
+binder 7254:7254 <> x:59
+R7266:7269 Coq.Init.Datatypes <> list ind
+R7271:7271 XORUnif.Decidable <> X:58 var
+binder 7262:7262 <> A:60
+R7289:7292 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7280:7286 XORUnif.Decidable <> DecblEq class
+R7288:7288 XORUnif.Decidable <> X:58 var
+R7293:7297 XORUnif.Decidable <> Decbl class
+R7299:7300 Coq.Lists.List <> In def
+R7304:7304 XORUnif.Decidable <> A:60 var
+R7302:7302 XORUnif.Decidable <> x:59 var
+R7337:7347 Coq.Lists.List <> in_dec thm
+R7337:7347 Coq.Lists.List <> in_dec thm
+prf 7369:7385 <> list_sigma_forall
+binder 7387:7387 <> X:61
+binder 7389:7390 <> ls:62
+R7398:7401 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7397:7397 XORUnif.Decidable <> X:61 var
+binder 7393:7393 <> p:63
+binder 7424:7424 <> x:64
+R7427:7431 XORUnif.Decidable <> Decbl class
+R7434:7434 XORUnif.Decidable <> p:63 var
+R7436:7436 XORUnif.Decidable <> x:64 var
+binder 7409:7413 <> p_dec:65
+R7464:7467 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R7494:7494 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R7444:7444 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R7446:7448 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R7463:7463 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 7445:7445 <> x:66
+R7456:7459 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7449:7450 Coq.Lists.List <> In def
+R7454:7455 XORUnif.Decidable <> ls:62 var
+R7452:7452 XORUnif.Decidable <> x:66 var
+R7460:7460 XORUnif.Decidable <> p:63 var
+R7462:7462 XORUnif.Decidable <> x:66 var
+binder 7475:7475 <> x:67
+R7485:7488 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7478:7479 Coq.Lists.List <> In def
+R7483:7484 XORUnif.Decidable <> ls:62 var
+R7481:7481 XORUnif.Decidable <> x:67 var
+R7489:7490 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7491:7491 XORUnif.Decidable <> p:63 var
+R7493:7493 XORUnif.Decidable <> x:67 var
+R7711:7727 XORUnif.Decidable <> list_sigma_forall thm
+R7711:7727 XORUnif.Decidable <> list_sigma_forall thm
+inst 7769:7783 <> list_forall_dec
+binder 7785:7785 <> X:68
+binder 7787:7787 <> A:69
+R7795:7798 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7794:7794 XORUnif.Decidable <> X:68 var
+binder 7790:7790 <> p:70
+binder 7821:7821 <> x:71
+R7824:7828 XORUnif.Decidable <> Decbl class
+R7831:7831 XORUnif.Decidable <> p:70 var
+R7833:7833 XORUnif.Decidable <> x:71 var
+binder 7806:7810 <> p_dec:72
+R7841:7845 XORUnif.Decidable <> Decbl class
+binder 7855:7855 <> x:73
+R7864:7867 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7858:7859 Coq.Lists.List <> In def
+R7863:7863 XORUnif.Decidable <> A:69 var
+R7861:7861 XORUnif.Decidable <> x:73 var
+R7868:7868 XORUnif.Decidable <> p:70 var
+R7870:7870 XORUnif.Decidable <> x:73 var
+R7893:7909 XORUnif.Decidable <> list_sigma_forall thm
+binder 7918:7918 <> x:74
+R7923:7924 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7927:7927 XORUnif.Decidable <> x:74 var
+R7893:7909 XORUnif.Decidable <> list_sigma_forall thm
+binder 7918:7918 <> x:75
+R7923:7924 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7927:7927 XORUnif.Decidable <> x:75 var
+R7994:7999 XORUnif.Decidable <> dec_DN thm
+R7994:7999 XORUnif.Decidable <> dec_DN thm
+inst 8038:8052 <> list_exists_dec
+binder 8054:8054 <> X:76
+binder 8056:8056 <> A:77
+R8064:8067 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8063:8063 XORUnif.Decidable <> X:76 var
+binder 8059:8059 <> p:78
+binder 8090:8090 <> x:79
+R8093:8097 XORUnif.Decidable <> Decbl class
+R8100:8100 XORUnif.Decidable <> p:78 var
+R8102:8102 XORUnif.Decidable <> x:79 var
+binder 8075:8079 <> p_dec:80
+R8110:8114 XORUnif.Decidable <> Decbl class
+R8117:8123 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8125:8126 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8124:8124 <> x:81
+R8133:8136 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8127:8128 Coq.Lists.List <> In def
+R8132:8132 XORUnif.Decidable <> A:77 var
+R8130:8130 XORUnif.Decidable <> x:81 var
+R8137:8137 XORUnif.Decidable <> p:78 var
+R8139:8139 XORUnif.Decidable <> x:81 var
+R8162:8178 XORUnif.Decidable <> list_sigma_forall thm
+R8162:8178 XORUnif.Decidable <> list_sigma_forall thm
+prf 8276:8289 <> list_exists_DM
+binder 8291:8291 <> X:82
+binder 8293:8293 <> A:83
+R8302:8305 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8301:8301 XORUnif.Decidable <> X:82 var
+binder 8297:8297 <> p:84
+R8317:8317 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8339:8345 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 8325:8325 <> x:85
+R8328:8332 XORUnif.Decidable <> Decbl class
+R8335:8335 XORUnif.Decidable <> p:84 var
+R8337:8337 XORUnif.Decidable <> x:85 var
+R8375:8378 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8346:8348 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8374:8374 Coq.Init.Logic <> ::type_scope:'~'_x not
+binder 8356:8356 <> x:86
+R8365:8368 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8359:8360 Coq.Lists.List <> In def
+R8364:8364 XORUnif.Decidable <> A:83 var
+R8362:8362 XORUnif.Decidable <> x:86 var
+R8369:8370 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8371:8371 XORUnif.Decidable <> p:84 var
+R8373:8373 XORUnif.Decidable <> x:86 var
+R8379:8385 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8387:8388 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8386:8386 <> x:87
+R8395:8398 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8389:8390 Coq.Lists.List <> In def
+R8394:8394 XORUnif.Decidable <> A:83 var
+R8392:8392 XORUnif.Decidable <> x:87 var
+R8399:8399 XORUnif.Decidable <> p:84 var
+R8401:8401 XORUnif.Decidable <> x:87 var
+R8439:8455 XORUnif.Decidable <> list_sigma_forall thm
+R8439:8455 XORUnif.Decidable <> list_sigma_forall thm
+prf 8541:8547 <> list_cc
+binder 8549:8549 <> X:88
+R8557:8560 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8556:8556 XORUnif.Decidable <> X:88 var
+binder 8552:8552 <> p:89
+binder 8567:8567 <> A:90
+R8574:8574 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8596:8603 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 8582:8582 <> x:91
+R8585:8589 XORUnif.Decidable <> Decbl class
+R8592:8592 XORUnif.Decidable <> p:89 var
+R8594:8594 XORUnif.Decidable <> x:91 var
+R8604:8604 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8628:8632 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8605:8611 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8613:8614 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8612:8612 <> x:92
+R8621:8624 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8615:8616 Coq.Lists.List <> In def
+R8620:8620 XORUnif.Decidable <> A:90 var
+R8618:8618 XORUnif.Decidable <> x:92 var
+R8625:8625 XORUnif.Decidable <> p:89 var
+R8627:8627 XORUnif.Decidable <> x:92 var
+R8633:8633 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R8635:8637 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R8651:8651 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+binder 8634:8634 <> x:93
+R8644:8647 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8638:8639 Coq.Lists.List <> In def
+R8643:8643 XORUnif.Decidable <> A:90 var
+R8641:8641 XORUnif.Decidable <> x:93 var
+R8648:8648 XORUnif.Decidable <> p:89 var
+R8650:8650 XORUnif.Decidable <> x:93 var
+R8688:8704 XORUnif.Decidable <> list_sigma_forall thm
+R8688:8704 XORUnif.Decidable <> list_sigma_forall thm
+prf 8916:8924 <> eq_eq_dec
+binder 8927:8927 <> T:94
+binder 8929:8929 <> U:95
+R8942:8948 XORUnif.Decidable <> DecblEq class
+R8950:8950 XORUnif.Decidable <> T:94 var
+R8959:8959 XORUnif.Decidable <> T:94 var
+binder 8954:8954 <> x:96
+binder 8956:8956 <> y:97
+R8969:8969 XORUnif.Decidable <> U:95 var
+binder 8964:8964 <> u:98
+binder 8966:8966 <> v:99
+R8979:8984 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8977:8977 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8976:8976 XORUnif.Decidable <> x:96 var
+R8978:8978 XORUnif.Decidable <> y:97 var
+R8985:8985 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9013:9016 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8989:8994 XORUnif.Decidable <> eq_dec def
+R8998:8998 XORUnif.Decidable <> y:97 var
+R8996:8996 XORUnif.Decidable <> x:96 var
+R9012:9012 XORUnif.Decidable <> v:99 var
+R9005:9005 XORUnif.Decidable <> u:98 var
+R9017:9017 XORUnif.Decidable <> u:98 var
+R9061:9066 XORUnif.Decidable <> eq_dec def
+R9061:9066 XORUnif.Decidable <> eq_dec def
+R9101:9109 XORUnif.Decidable <> eq_eq_dec thm
+R9101:9109 XORUnif.Decidable <> eq_eq_dec thm
+prf 9135:9144 <> neq_eq_dec
+binder 9147:9147 <> T:100
+binder 9149:9149 <> U:101
+R9162:9168 XORUnif.Decidable <> DecblEq class
+R9170:9170 XORUnif.Decidable <> T:100 var
+R9179:9179 XORUnif.Decidable <> T:100 var
+binder 9174:9174 <> x:102
+binder 9176:9176 <> y:103
+R9189:9189 XORUnif.Decidable <> U:101 var
+binder 9184:9184 <> u:104
+binder 9186:9186 <> v:105
+R9200:9205 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9197:9198 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R9196:9196 XORUnif.Decidable <> x:102 var
+R9199:9199 XORUnif.Decidable <> y:103 var
+R9206:9206 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9234:9237 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9210:9215 XORUnif.Decidable <> eq_dec def
+R9219:9219 XORUnif.Decidable <> y:103 var
+R9217:9217 XORUnif.Decidable <> x:102 var
+R9233:9233 XORUnif.Decidable <> v:105 var
+R9226:9226 XORUnif.Decidable <> u:104 var
+R9238:9238 XORUnif.Decidable <> v:105 var
+R9275:9280 XORUnif.Decidable <> eq_dec def
+R9275:9280 XORUnif.Decidable <> eq_dec def
+R9315:9324 XORUnif.Decidable <> neq_eq_dec thm
+R9315:9324 XORUnif.Decidable <> neq_eq_dec thm
+prf 9350:9359 <> y_if_y_dec
+binder 9362:9362 <> U:106
+binder 9372:9372 <> P:107
+R9385:9389 XORUnif.Decidable <> Decbl class
+R9391:9391 XORUnif.Decidable <> P:107 var
+R9400:9400 XORUnif.Decidable <> U:106 var
+binder 9395:9395 <> u:108
+binder 9397:9397 <> v:109
+R9408:9413 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9407:9407 XORUnif.Decidable <> P:107 var
+R9414:9414 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9437:9440 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9418:9420 XORUnif.Decidable <> dcd def
+R9422:9422 XORUnif.Decidable <> P:107 var
+R9436:9436 XORUnif.Decidable <> v:109 var
+R9429:9429 XORUnif.Decidable <> u:108 var
+R9441:9441 XORUnif.Decidable <> u:108 var
+R9478:9480 XORUnif.Decidable <> dcd def
+R9478:9480 XORUnif.Decidable <> dcd def
+R9513:9522 XORUnif.Decidable <> y_if_y_dec thm
+R9513:9522 XORUnif.Decidable <> y_if_y_dec thm
+prf 9546:9555 <> n_if_y_dec
+binder 9558:9558 <> U:110
+binder 9568:9568 <> P:111
+R9581:9585 XORUnif.Decidable <> Decbl class
+R9587:9587 XORUnif.Decidable <> P:111 var
+R9596:9596 XORUnif.Decidable <> U:110 var
+binder 9591:9591 <> u:112
+binder 9593:9593 <> v:113
+R9606:9611 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9603:9604 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9605:9605 XORUnif.Decidable <> P:111 var
+R9612:9612 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9635:9638 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9616:9618 XORUnif.Decidable <> dcd def
+R9620:9620 XORUnif.Decidable <> P:111 var
+R9634:9634 XORUnif.Decidable <> v:113 var
+R9627:9627 XORUnif.Decidable <> u:112 var
+R9639:9639 XORUnif.Decidable <> v:113 var
+R9675:9677 XORUnif.Decidable <> dcd def
+R9675:9677 XORUnif.Decidable <> dcd def
+R9710:9719 XORUnif.Decidable <> n_if_y_dec thm
+R9710:9719 XORUnif.Decidable <> n_if_y_dec thm

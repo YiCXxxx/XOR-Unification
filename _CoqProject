@@ -1,0 +1,15 @@
+-Q . "XORUnif"
+
+Decidable.v
+TheoryDef.v
+Permutation.v
+ListTermRepresentation.v
+AReduced.v
+NReduced.v
+UReduced.v
+Order.v
+list.v
+Reduced.v
+Substitution.v
+Unification.v
+Unification_Correctness.v

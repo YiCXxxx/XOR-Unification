@@ -1,0 +1,301 @@
+DIGEST cf325910cf493350e331f370ed7f4ce3
+FXORUnif.AReduced
+R1004:1025 XORUnif.ListTermRepresentation <> <> lib
+ind 1039:1046 <> AReduced
+constr 1064:1075 <> AReduced_nil
+constr 1091:1109 <> AReduced_cons_const
+constr 1186:1202 <> AReduced_cons_var
+R1054:1055 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1049:1053 XORUnif.ListTermRepresentation <> lTerm abbrev
+R1078:1085 XORUnif.AReduced <> AReduced:1 ind
+R1087:1088 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1123:1126 Coq.Init.Datatypes <> list ind
+R1128:1131 XORUnif.TheoryDef <> term ind
+binder 1120:1121 <> tl:3
+R1136:1138 Coq.Init.Datatypes <> nat ind
+binder 1134:1134 <> n:4
+R1158:1161 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1147:1154 XORUnif.AReduced <> AReduced:1 ind
+R1156:1157 XORUnif.AReduced <> tl:3 var
+R1162:1169 XORUnif.AReduced <> AReduced:1 ind
+R1172:1172 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1176:1180 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1173:1173 XORUnif.TheoryDef <> C constr
+R1175:1175 XORUnif.AReduced <> n:4 var
+R1181:1182 XORUnif.AReduced <> tl:3 var
+R1216:1219 Coq.Init.Datatypes <> list ind
+R1221:1224 XORUnif.TheoryDef <> term ind
+binder 1213:1214 <> tl:5
+R1229:1231 XORUnif.TheoryDef <> var def
+binder 1227:1227 <> v:6
+R1251:1254 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1240:1247 XORUnif.AReduced <> AReduced:1 ind
+R1249:1250 XORUnif.AReduced <> tl:5 var
+R1255:1262 XORUnif.AReduced <> AReduced:1 ind
+R1265:1265 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1269:1273 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1266:1266 XORUnif.TheoryDef <> V constr
+R1268:1268 XORUnif.AReduced <> v:6 var
+R1274:1275 XORUnif.AReduced <> tl:5 var
+prf 1399:1410 <> AReduced_app
+R1429:1433 XORUnif.ListTermRepresentation <> lTerm abbrev
+binder 1421:1423 <> tl1:7
+binder 1425:1427 <> tl2:8
+R1452:1455 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1440:1447 XORUnif.AReduced <> AReduced ind
+R1449:1451 XORUnif.AReduced <> tl1:7 var
+R1468:1471 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1456:1463 XORUnif.AReduced <> AReduced ind
+R1465:1467 XORUnif.AReduced <> tl2:8 var
+R1472:1479 XORUnif.AReduced <> AReduced ind
+R1485:1488 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1482:1484 XORUnif.AReduced <> tl1:7 var
+R1489:1491 XORUnif.AReduced <> tl2:8 var
+prf 1738:1759 <> AReduced_app_back_left
+R1778:1782 XORUnif.ListTermRepresentation <> lTerm abbrev
+binder 1770:1772 <> tl1:9
+binder 1774:1776 <> tl2:10
+R1810:1813 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1789:1796 XORUnif.AReduced <> AReduced ind
+R1802:1805 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1799:1801 XORUnif.AReduced <> tl1:9 var
+R1806:1808 XORUnif.AReduced <> tl2:10 var
+R1814:1821 XORUnif.AReduced <> AReduced ind
+R1823:1825 XORUnif.AReduced <> tl1:9 var
+prf 2031:2053 <> AReduced_app_back_right
+R2072:2076 XORUnif.ListTermRepresentation <> lTerm abbrev
+binder 2064:2066 <> tl1:11
+binder 2068:2070 <> tl2:12
+R2104:2107 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2083:2090 XORUnif.AReduced <> AReduced ind
+R2096:2099 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R2093:2095 XORUnif.AReduced <> tl1:11 var
+R2100:2102 XORUnif.AReduced <> tl2:12 var
+R2108:2115 XORUnif.AReduced <> AReduced ind
+R2117:2119 XORUnif.AReduced <> tl2:12 var
+prf 2376:2390 <> AReduced_remove
+R2404:2408 XORUnif.ListTermRepresentation <> lTerm abbrev
+binder 2401:2402 <> tl:13
+R2413:2416 XORUnif.TheoryDef <> term ind
+binder 2411:2411 <> t:14
+R2435:2438 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2422:2429 XORUnif.AReduced <> AReduced ind
+R2432:2433 XORUnif.AReduced <> tl:13 var
+R2439:2446 XORUnif.AReduced <> AReduced ind
+R2449:2454 XORUnif.Permutation <> remove def
+R2456:2456 XORUnif.AReduced <> t:14 var
+R2458:2459 XORUnif.AReduced <> tl:13 var
+R2550:2564 CoLoR.Util.Nat.NatUtil <> beq_nat def
+R2550:2564 CoLoR.Util.Nat.NatUtil <> beq_nat def
+R2683:2689 XORUnif.TheoryDef <> beq_var def
+R2683:2689 XORUnif.TheoryDef <> beq_var def
+def 2760:2768 <> AReducing
+R2772:2784 XORUnif.ListTermRepresentation <> term_to_lTerm def
+prf 2904:2928 <> AReducing_Correct_Reduced
+R2941:2944 XORUnif.TheoryDef <> term ind
+binder 2939:2939 <> t:15
+R2950:2957 XORUnif.AReduced <> AReduced ind
+R2960:2968 XORUnif.AReduced <> AReducing def
+R2970:2970 XORUnif.AReduced <> t:15 var
+R3048:3059 XORUnif.AReduced <> AReduced_app thm
+R3048:3059 XORUnif.AReduced <> AReduced_app thm
+prf 3128:3147 <> AReduced_Correct_eqv
+R3160:3163 XORUnif.TheoryDef <> term ind
+binder 3158:3158 <> t:16
+R3170:3173 XORUnif.TheoryDef <> :::x_'=='_x not
+R3169:3169 XORUnif.AReduced <> t:16 var
+R3174:3186 XORUnif.ListTermRepresentation <> lTerm_to_term def
+R3189:3197 XORUnif.AReduced <> AReducing def
+R3199:3199 XORUnif.AReduced <> t:16 var
+R3218:3235 XORUnif.ListTermRepresentation <> listTransCorrect_t thm
+R3218:3235 XORUnif.ListTermRepresentation <> listTransCorrect_t thm
+def 3324:3333 <> Oplus_term
+R3337:3340 XORUnif.TheoryDef <> term ind
+binder 3335:3335 <> t:17
+R3343:3346 Coq.Init.Datatypes <> bool ind
+R3358:3358 XORUnif.AReduced <> t:17 var
+R3370:3373 XORUnif.TheoryDef <> :::x_'+'''_x not
+R3379:3382 Coq.Init.Datatypes <> true constr
+R3392:3396 Coq.Init.Datatypes <> false constr
+def 3533:3544 <> AReducing_lr
+R3549:3553 XORUnif.ListTermRepresentation <> lTerm abbrev
+binder 3546:3547 <> tl:19
+R3556:3560 XORUnif.ListTermRepresentation <> lTerm abbrev
+R3572:3573 XORUnif.AReduced <> tl:19 var
+R3583:3584 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R3589:3590 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R3596:3597 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3609:3618 XORUnif.AReduced <> Oplus_term def
+R3688:3690 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3707:3707 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3691:3702 XORUnif.AReduced <> AReducing_lr:20 def
+R3635:3637 Coq.Init.Datatypes <> app def
+R3658:3669 XORUnif.AReduced <> AReducing_lr:20 def
+R3640:3652 XORUnif.ListTermRepresentation <> term_to_lTerm def
+prf 3786:3813 <> AReducing_lr_Correct_Reduced
+R3826:3830 XORUnif.ListTermRepresentation <> lTerm abbrev
+binder 3823:3824 <> tl:22
+R3836:3843 XORUnif.AReduced <> AReduced ind
+R3846:3857 XORUnif.AReduced <> AReducing_lr def
+R3859:3860 XORUnif.AReduced <> tl:22 var
+R3980:3991 XORUnif.AReduced <> AReduced_app thm
+R3980:3991 XORUnif.AReduced <> AReduced_app thm
+R4006:4017 XORUnif.AReduced <> AReduced_app thm
+R4025:4049 XORUnif.AReduced <> AReducing_Correct_Reduced thm
+R4006:4017 XORUnif.AReduced <> AReduced_app thm
+R4025:4049 XORUnif.AReduced <> AReducing_Correct_Reduced thm
+R4025:4049 XORUnif.AReduced <> AReducing_Correct_Reduced thm
+prf 4078:4101 <> AReducing_lr_Correct_eqv
+R4114:4118 XORUnif.ListTermRepresentation <> lTerm abbrev
+binder 4111:4112 <> tl:23
+R4126:4131 XORUnif.ListTermRepresentation <> :::x_'=l='_x not
+R4147:4147 XORUnif.ListTermRepresentation <> :::x_'=l='_x not
+R4124:4125 XORUnif.AReduced <> tl:23 var
+R4132:4143 XORUnif.AReduced <> AReducing_lr def
+R4145:4146 XORUnif.AReduced <> tl:23 var
+R4198:4204 XORUnif.ListTermRepresentation <> lr_relf constr
+R4198:4204 XORUnif.ListTermRepresentation <> lr_relf constr
+R4237:4257 XORUnif.ListTermRepresentation <> lTerm_eqv_cons_compat thm
+R4237:4257 XORUnif.ListTermRepresentation <> lTerm_eqv_cons_compat thm
+R4237:4257 XORUnif.ListTermRepresentation <> lTerm_eqv_cons_compat thm
+R4237:4257 XORUnif.ListTermRepresentation <> lTerm_eqv_cons_compat thm
+R4281:4289 XORUnif.ListTermRepresentation <> lr_compat constr
+R4291:4291 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R4298:4298 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R4294:4295 XORUnif.TheoryDef <> :::x_'+'''_x not
+R4322:4325 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4306:4318 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R4326:4338 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R4348:4359 XORUnif.AReduced <> AReducing_lr def
+R4281:4289 XORUnif.ListTermRepresentation <> lr_compat constr
+R4291:4291 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R4298:4298 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R4294:4295 XORUnif.TheoryDef <> :::x_'+'''_x not
+R4322:4325 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4306:4318 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R4326:4338 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R4348:4359 XORUnif.AReduced <> AReducing_lr def
+R4409:4416 XORUnif.ListTermRepresentation <> lr_oplus constr
+R4409:4416 XORUnif.ListTermRepresentation <> lr_oplus constr
+R4446:4446 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4449:4449 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4452:4452 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4432:4439 XORUnif.ListTermRepresentation <> lr_trans constr
+R4446:4446 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4449:4449 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4452:4452 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4432:4439 XORUnif.ListTermRepresentation <> lr_trans constr
+R4478:4486 XORUnif.ListTermRepresentation <> lr_compat constr
+R4488:4488 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R4491:4491 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R4493:4505 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R4510:4510 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R4513:4513 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R4515:4527 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R4478:4486 XORUnif.ListTermRepresentation <> lr_compat constr
+R4488:4488 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R4491:4491 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R4493:4505 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R4510:4510 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R4513:4513 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R4515:4527 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R4568:4591 XORUnif.ListTermRepresentation <> listTransCorrect_lr_term thm
+R4568:4591 XORUnif.ListTermRepresentation <> listTransCorrect_lr_term thm
+R4568:4591 XORUnif.ListTermRepresentation <> listTransCorrect_lr_term thm
+prf 4623:4645 <> AReduced_AReducing_idpt
+R4658:4662 XORUnif.ListTermRepresentation <> lTerm abbrev
+binder 4655:4656 <> tl:24
+R4679:4682 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4668:4675 XORUnif.AReduced <> AReduced ind
+R4677:4678 XORUnif.AReduced <> tl:24 var
+R4698:4700 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4683:4694 XORUnif.AReduced <> AReducing_lr def
+R4696:4697 XORUnif.AReduced <> tl:24 var
+R4701:4702 XORUnif.AReduced <> tl:24 var
+prf 4859:4874 <> AReducing_lr_app
+R4890:4894 XORUnif.ListTermRepresentation <> lTerm abbrev
+binder 4884:4885 <> l1:25
+binder 4887:4888 <> l2:26
+R4938:4940 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4900:4900 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4916:4921 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4937:4937 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4901:4912 XORUnif.AReduced <> AReducing_lr def
+R4914:4915 XORUnif.AReduced <> l1:25 var
+R4922:4933 XORUnif.AReduced <> AReducing_lr def
+R4935:4936 XORUnif.AReduced <> l2:26 var
+R4941:4952 XORUnif.AReduced <> AReducing_lr def
+R4957:4958 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4955:4956 XORUnif.AReduced <> l1:25 var
+R4959:4960 XORUnif.AReduced <> l2:26 var
+R5056:5065 XORUnif.AReduced <> Oplus_term def
+R5056:5065 XORUnif.AReduced <> Oplus_term def
+R5085:5101 Coq.Lists.List <> app_assoc_reverse thm
+R5085:5101 Coq.Lists.List <> app_assoc_reverse thm
+R5085:5101 Coq.Lists.List <> app_assoc_reverse thm
+R5135:5147 Coq.Lists.List <> app_comm_cons thm
+R5135:5147 Coq.Lists.List <> app_comm_cons thm
+R5135:5147 Coq.Lists.List <> app_comm_cons thm
+prf 5252:5263 <> AReduced_rev
+R5276:5280 XORUnif.ListTermRepresentation <> lTerm abbrev
+binder 5273:5274 <> tl:27
+R5297:5300 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5286:5293 XORUnif.AReduced <> AReduced ind
+R5295:5296 XORUnif.AReduced <> tl:27 var
+R5301:5308 XORUnif.AReduced <> AReduced ind
+R5310:5312 Coq.Lists.List <> rev def
+R5314:5315 XORUnif.AReduced <> tl:27 var
+R5428:5439 XORUnif.AReduced <> AReduced_app thm
+R5428:5439 XORUnif.AReduced <> AReduced_app thm
+R5486:5497 XORUnif.AReduced <> AReduced_app thm
+R5486:5497 XORUnif.AReduced <> AReduced_app thm
+prf 5594:5601 <> rev_simp
+R5614:5617 XORUnif.TheoryDef <> term ind
+binder 5612:5612 <> t:28
+R5623:5627 XORUnif.ListTermRepresentation <> lTerm abbrev
+binder 5620:5621 <> tl:29
+R5645:5647 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5633:5635 Coq.Lists.List <> rev def
+R5639:5640 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R5637:5638 XORUnif.AReduced <> tl:29 var
+R5641:5641 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R5643:5643 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R5642:5642 XORUnif.AReduced <> t:28 var
+R5649:5652 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5659:5659 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5648:5648 XORUnif.AReduced <> t:28 var
+R5653:5655 Coq.Lists.List <> rev def
+R5657:5658 XORUnif.AReduced <> tl:29 var
+prf 5782:5791 <> rev_simp_2
+R5804:5807 XORUnif.TheoryDef <> term ind
+binder 5802:5802 <> t:30
+R5813:5817 XORUnif.ListTermRepresentation <> lTerm abbrev
+binder 5810:5811 <> tl:31
+R5833:5835 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5823:5825 Coq.Lists.List <> rev def
+R5828:5829 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5827:5827 XORUnif.AReduced <> t:30 var
+R5830:5831 XORUnif.AReduced <> tl:31 var
+R5836:5836 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R5843:5845 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R5837:5839 Coq.Lists.List <> rev def
+R5841:5842 XORUnif.AReduced <> tl:31 var
+R5846:5846 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R5848:5848 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R5847:5847 XORUnif.AReduced <> t:30 var
+prf 5974:5985 <> rev_AReduced
+R5998:6002 XORUnif.ListTermRepresentation <> lTerm abbrev
+binder 5995:5996 <> tl:32
+R6025:6028 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6008:6015 XORUnif.AReduced <> AReduced ind
+R6018:6020 Coq.Lists.List <> rev def
+R6022:6023 XORUnif.AReduced <> tl:32 var
+R6029:6036 XORUnif.AReduced <> AReduced ind
+R6038:6039 XORUnif.AReduced <> tl:32 var
+R6102:6111 XORUnif.AReduced <> rev_simp_2 thm
+R6102:6111 XORUnif.AReduced <> rev_simp_2 thm
+R6102:6111 XORUnif.AReduced <> rev_simp_2 thm
+R6129:6150 XORUnif.AReduced <> AReduced_app_back_left thm
+R6129:6150 XORUnif.AReduced <> AReduced_app_back_left thm
+R6175:6197 XORUnif.AReduced <> AReduced_app_back_right thm
+R6175:6197 XORUnif.AReduced <> AReduced_app_back_right thm

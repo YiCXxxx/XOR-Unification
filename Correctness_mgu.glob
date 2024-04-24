@@ -1,0 +1,59 @@
+DIGEST 38d5593d4433871c68a126e826d7cfa1
+FXORUnif.Correctness_mgu
+R28:38 XORUnif.Unification <> <> lib
+prf 55:68 <> XORunif_solves
+R81:84 XORUnif.Unification <> eqns def
+binder 77:79 <> eqs:1
+R90:92 XORUnif.Substitution <> sub def
+binder 87:88 <> sb:2
+R126:131 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R116:118 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R98:111 XORUnif.Unification <> XORUnification def
+R113:115 XORUnif.Correctness_mgu <> eqs:1 var
+R119:122 Coq.Init.Datatypes <> Some constr
+R124:125 XORUnif.Correctness_mgu <> sb:2 var
+R150:152 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R132:142 XORUnif.Unification <> solves_eqns def
+R144:145 XORUnif.Correctness_mgu <> sb:2 var
+R147:149 XORUnif.Correctness_mgu <> eqs:1 var
+R153:156 Coq.Init.Datatypes <> true constr
+R183:196 XORUnif.Unification <> XORUnification def
+R214:220 XORUnif.Unification <> measure def
+R223:227 XORUnif.Unification <> steps def
+R230:236 XORUnif.Unification <> measure def
+R238:238 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R242:243 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R250:250 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R244:249 XORUnif.Substitution <> id_sub def
+R253:253 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R257:258 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R265:265 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R259:264 XORUnif.Substitution <> id_sub def
+R214:220 XORUnif.Unification <> measure def
+R223:227 XORUnif.Unification <> steps def
+R230:236 XORUnif.Unification <> measure def
+R238:238 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R242:243 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R250:250 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R244:249 XORUnif.Substitution <> id_sub def
+R253:253 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R257:258 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R265:265 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R259:264 XORUnif.Substitution <> id_sub def
+R323:327 XORUnif.Unification <> steps def
+prf 378:388 <> XORunif_mgu
+R401:404 XORUnif.Unification <> eqns def
+binder 397:399 <> eqs:3
+R410:416 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R423:424 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R420:422 XORUnif.Substitution <> sub def
+binder 417:418 <> sb:4
+R453:458 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R443:445 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R425:438 XORUnif.Unification <> XORUnification def
+R440:442 XORUnif.Correctness_mgu <> eqs:3 var
+R446:449 Coq.Init.Datatypes <> Some constr
+R451:452 XORUnif.Correctness_mgu <> sb:4 var
+R459:461 XORUnif.Unification <> mgu def
+R463:464 XORUnif.Correctness_mgu <> sb:4 var
+R466:468 XORUnif.Correctness_mgu <> eqs:3 var

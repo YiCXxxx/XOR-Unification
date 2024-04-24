@@ -1,0 +1,686 @@
+DIGEST b4f1cb65cea8e5fc6c5f19332f685565
+FXORUnif.Unification_Correctness
+R230:240 XORUnif.Unification <> <> lib
+def 256:269 <> XORUnification
+R274:281 XORUnif.Unification <> problems def
+binder 271:272 <> ps:1
+R286:291 Coq.Init.Datatypes <> option ind
+R293:295 XORUnif.Substitution <> sub def
+R308:324 XORUnif.Unification <> rawPs_to_solvedPs def
+R326:327 XORUnif.Unification_Correctness <> ps:1 var
+R338:341 Coq.Init.Datatypes <> Some constr
+R350:353 Coq.Init.Datatypes <> Some constr
+R356:373 XORUnif.Unification <> solved_form_to_sub def
+R383:386 Coq.Init.Datatypes <> None constr
+R391:394 Coq.Init.Datatypes <> None constr
+prf 410:436 <> XORUnification_not_solvable
+R448:455 XORUnif.Unification <> problems def
+binder 445:446 <> ps:2
+R485:488 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R478:480 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R461:474 XORUnif.Unification_Correctness <> XORUnification def
+R476:477 XORUnif.Unification_Correctness <> ps:2 var
+R481:484 Coq.Init.Datatypes <> None constr
+R489:509 XORUnif.Unification <> not_solvable_problems def
+R511:512 XORUnif.Unification_Correctness <> ps:2 var
+R539:552 XORUnif.Unification_Correctness <> XORUnification def
+R569:585 XORUnif.Unification <> rawPs_to_solvedPs def
+R569:585 XORUnif.Unification <> rawPs_to_solvedPs def
+R641:657 XORUnif.Unification <> rawPs_to_solvedPs def
+R680:684 XORUnif.Unification <> steps def
+R687:693 XORUnif.Unification <> measure def
+R695:695 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R717:718 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R721:721 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R696:713 XORUnif.Unification <> rawPs_to_reducedPs def
+R719:720 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R724:724 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R746:747 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R750:750 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R725:742 XORUnif.Unification <> rawPs_to_reducedPs def
+R748:749 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R680:684 XORUnif.Unification <> steps def
+R687:693 XORUnif.Unification <> measure def
+R695:695 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R717:718 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R721:721 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R696:713 XORUnif.Unification <> rawPs_to_reducedPs def
+R719:720 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R724:724 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R746:747 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R750:750 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R725:742 XORUnif.Unification <> rawPs_to_reducedPs def
+R748:749 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R809:840 XORUnif.Unification <> steps_sub_not_empty_not_solvable thm
+R809:840 XORUnif.Unification <> steps_sub_not_empty_not_solvable thm
+R870:904 XORUnif.Unification <> Reduced_Problems_rawPs_to_reducedPs thm
+R870:904 XORUnif.Unification <> Reduced_Problems_rawPs_to_reducedPs thm
+R926:955 XORUnif.Unification <> steps_n_simpl_Reduced_Problems thm
+R958:964 XORUnif.Unification <> measure def
+R966:966 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R988:989 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R992:992 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R967:984 XORUnif.Unification <> rawPs_to_reducedPs def
+R990:991 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R995:995 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1017:1018 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1021:1021 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R996:1013 XORUnif.Unification <> rawPs_to_reducedPs def
+R1019:1020 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R926:955 XORUnif.Unification <> steps_n_simpl_Reduced_Problems thm
+R958:964 XORUnif.Unification <> measure def
+R966:966 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R988:989 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R992:992 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R967:984 XORUnif.Unification <> rawPs_to_reducedPs def
+R990:991 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R995:995 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1017:1018 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1021:1021 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R996:1013 XORUnif.Unification <> rawPs_to_reducedPs def
+R1019:1020 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1114:1131 XORUnif.Unification <> fixed_not_solvable thm
+R1114:1131 XORUnif.Unification <> fixed_not_solvable thm
+R1162:1190 XORUnif.Unification <> steps_sub_preserve_ps1_forall thm
+R1162:1190 XORUnif.Unification <> steps_sub_preserve_ps1_forall thm
+R1218:1248 XORUnif.Unification <> same_unifiers_both_not_solvable thm
+R1218:1248 XORUnif.Unification <> same_unifiers_both_not_solvable thm
+prf 1277:1297 <> XORUnification_solves
+R1309:1316 XORUnif.Unification <> problems def
+binder 1306:1307 <> ps:3
+R1322:1324 XORUnif.Substitution <> sub def
+binder 1319:1320 <> sb:4
+R1357:1360 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1347:1349 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1330:1343 XORUnif.Unification_Correctness <> XORUnification def
+R1345:1346 XORUnif.Unification_Correctness <> ps:3 var
+R1350:1353 Coq.Init.Datatypes <> Some constr
+R1355:1356 XORUnif.Unification_Correctness <> sb:4 var
+R1361:1375 XORUnif.Unification <> solves_problems def
+R1377:1378 XORUnif.Unification_Correctness <> sb:4 var
+R1380:1381 XORUnif.Unification_Correctness <> ps:3 var
+R1408:1421 XORUnif.Unification_Correctness <> XORUnification def
+R1439:1455 XORUnif.Unification <> rawPs_to_solvedPs def
+R1439:1455 XORUnif.Unification <> rawPs_to_solvedPs def
+R1480:1496 XORUnif.Unification <> rawPs_to_solvedPs def
+R1520:1524 XORUnif.Unification <> steps def
+R1527:1533 XORUnif.Unification <> measure def
+R1535:1535 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1557:1558 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1561:1561 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1536:1553 XORUnif.Unification <> rawPs_to_reducedPs def
+R1559:1560 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1564:1564 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1586:1587 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1590:1590 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1565:1582 XORUnif.Unification <> rawPs_to_reducedPs def
+R1588:1589 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1520:1524 XORUnif.Unification <> steps def
+R1527:1533 XORUnif.Unification <> measure def
+R1535:1535 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1557:1558 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1561:1561 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1536:1553 XORUnif.Unification <> rawPs_to_reducedPs def
+R1559:1560 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1564:1564 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1586:1587 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1590:1590 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1565:1582 XORUnif.Unification <> rawPs_to_reducedPs def
+R1588:1589 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1663:1691 XORUnif.Unification <> rawPs_to_solvedPs_solved_form thm
+R1663:1691 XORUnif.Unification <> rawPs_to_solvedPs_solved_form thm
+R1721:1742 XORUnif.Unification <> solved_form_sub_solves thm
+R1721:1742 XORUnif.Unification <> solved_form_sub_solves thm
+R1770:1795 XORUnif.Unification <> steps_sub_preserve_ps2_rev thm
+R1804:1821 XORUnif.Unification <> solved_form_to_sub def
+R1770:1795 XORUnif.Unification <> steps_sub_preserve_ps2_rev thm
+R1804:1821 XORUnif.Unification <> solved_form_to_sub def
+prf 1919:1936 <> XORUnification_mgu
+R1948:1955 XORUnif.Unification <> problems def
+binder 1945:1946 <> ps:5
+R1961:1963 XORUnif.Substitution <> sub def
+binder 1958:1959 <> sb:6
+R1996:1999 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1986:1988 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1969:1982 XORUnif.Unification_Correctness <> XORUnification def
+R1984:1985 XORUnif.Unification_Correctness <> ps:5 var
+R1989:1992 Coq.Init.Datatypes <> Some constr
+R1994:1995 XORUnif.Unification_Correctness <> sb:6 var
+R2000:2006 XORUnif.Unification <> mgu_xor def
+R2008:2009 XORUnif.Unification_Correctness <> sb:6 var
+R2011:2012 XORUnif.Unification_Correctness <> ps:5 var
+R2039:2052 XORUnif.Unification_Correctness <> XORUnification def
+R2070:2086 XORUnif.Unification <> rawPs_to_solvedPs def
+R2070:2086 XORUnif.Unification <> rawPs_to_solvedPs def
+R2111:2127 XORUnif.Unification <> rawPs_to_solvedPs def
+R2151:2155 XORUnif.Unification <> steps def
+R2158:2164 XORUnif.Unification <> measure def
+R2166:2166 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2188:2189 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2192:2192 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2167:2184 XORUnif.Unification <> rawPs_to_reducedPs def
+R2190:2191 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2195:2195 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2217:2218 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2221:2221 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2196:2213 XORUnif.Unification <> rawPs_to_reducedPs def
+R2219:2220 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2151:2155 XORUnif.Unification <> steps def
+R2158:2164 XORUnif.Unification <> measure def
+R2166:2166 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2188:2189 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2192:2192 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2167:2184 XORUnif.Unification <> rawPs_to_reducedPs def
+R2190:2191 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2195:2195 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2217:2218 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2221:2221 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2196:2213 XORUnif.Unification <> rawPs_to_reducedPs def
+R2219:2220 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2294:2322 XORUnif.Unification <> rawPs_to_solvedPs_solved_form thm
+R2294:2322 XORUnif.Unification <> rawPs_to_solvedPs_solved_form thm
+R2353:2371 XORUnif.Unification <> solved_form_sub_mgu thm
+R2353:2371 XORUnif.Unification <> solved_form_sub_mgu thm
+R2399:2416 XORUnif.Unification <> steps_mgu_preserve thm
+R2425:2442 XORUnif.Unification <> solved_form_to_sub def
+R2399:2416 XORUnif.Unification <> steps_mgu_preserve thm
+R2425:2442 XORUnif.Unification <> solved_form_to_sub def
+prf 2545:2563 <> XORUnification_idpt
+R2575:2582 XORUnif.Unification <> problems def
+binder 2572:2573 <> ps:7
+R2588:2590 XORUnif.Substitution <> sub def
+binder 2585:2586 <> sb:8
+R2623:2626 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2613:2615 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2596:2609 XORUnif.Unification_Correctness <> XORUnification def
+R2611:2612 XORUnif.Unification_Correctness <> ps:7 var
+R2616:2619 Coq.Init.Datatypes <> Some constr
+R2621:2622 XORUnif.Unification_Correctness <> sb:8 var
+R2627:2636 XORUnif.Substitution <> idempotent def
+R2638:2639 XORUnif.Unification_Correctness <> sb:8 var
+R2666:2679 XORUnif.Unification_Correctness <> XORUnification def
+R2697:2713 XORUnif.Unification <> rawPs_to_solvedPs def
+R2697:2713 XORUnif.Unification <> rawPs_to_solvedPs def
+R2738:2754 XORUnif.Unification <> rawPs_to_solvedPs def
+R2778:2782 XORUnif.Unification <> steps def
+R2785:2791 XORUnif.Unification <> measure def
+R2793:2793 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2815:2816 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2819:2819 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2794:2811 XORUnif.Unification <> rawPs_to_reducedPs def
+R2817:2818 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2822:2822 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2844:2845 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2848:2848 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2823:2840 XORUnif.Unification <> rawPs_to_reducedPs def
+R2846:2847 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2778:2782 XORUnif.Unification <> steps def
+R2785:2791 XORUnif.Unification <> measure def
+R2793:2793 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2815:2816 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2819:2819 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2794:2811 XORUnif.Unification <> rawPs_to_reducedPs def
+R2817:2818 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2822:2822 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2844:2845 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2848:2848 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2823:2840 XORUnif.Unification <> rawPs_to_reducedPs def
+R2846:2847 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2921:2949 XORUnif.Unification <> rawPs_to_solvedPs_solved_form thm
+R2921:2949 XORUnif.Unification <> rawPs_to_solvedPs_solved_form thm
+R2980:2999 XORUnif.Unification <> solved_form_sub_idpt thm
+R2980:2999 XORUnif.Unification <> solved_form_sub_idpt thm
+def 3087:3104 <> problems_unifiable
+R3109:3116 XORUnif.Unification <> problems def
+binder 3106:3107 <> ps:9
+R3128:3134 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3141:3142 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3138:3140 XORUnif.Substitution <> sub def
+binder 3135:3136 <> sb:10
+R3143:3157 XORUnif.Unification <> solves_problems def
+R3159:3160 XORUnif.Unification_Correctness <> sb:10 var
+R3162:3163 XORUnif.Unification_Correctness <> ps:9 var
+prf 3175:3194 <> unifiable_return_sub
+R3206:3213 XORUnif.Unification <> problems def
+binder 3203:3204 <> ps:11
+R3240:3244 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3287:3287 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3219:3236 XORUnif.Unification_Correctness <> problems_unifiable def
+R3238:3239 XORUnif.Unification_Correctness <> ps:11 var
+R3245:3251 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3258:3259 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3255:3257 XORUnif.Substitution <> sub def
+binder 3252:3253 <> sb:12
+R3277:3279 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3260:3273 XORUnif.Unification_Correctness <> XORUnification def
+R3275:3276 XORUnif.Unification_Correctness <> ps:11 var
+R3280:3283 Coq.Init.Datatypes <> Some constr
+R3285:3286 XORUnif.Unification_Correctness <> sb:12 var
+R3317:3330 XORUnif.Unification_Correctness <> XORUnification def
+R3317:3330 XORUnif.Unification_Correctness <> XORUnification def
+R3373:3390 XORUnif.Unification_Correctness <> problems_unifiable def
+R3408:3434 XORUnif.Unification_Correctness <> XORUnification_not_solvable thm
+R3408:3434 XORUnif.Unification_Correctness <> XORUnification_not_solvable thm
+R3449:3469 XORUnif.Unification <> not_solvable_problems def
+prf 3533:3557 <> not_unifiable_return_None
+R3569:3576 XORUnif.Unification <> problems def
+binder 3566:3567 <> ps:13
+R3606:3609 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3582:3583 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3605:3605 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3584:3601 XORUnif.Unification_Correctness <> problems_unifiable def
+R3603:3604 XORUnif.Unification_Correctness <> ps:13 var
+R3627:3629 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3610:3623 XORUnif.Unification_Correctness <> XORUnification def
+R3625:3626 XORUnif.Unification_Correctness <> ps:13 var
+R3630:3633 Coq.Init.Datatypes <> None constr
+R3663:3676 XORUnif.Unification_Correctness <> XORUnification def
+R3663:3676 XORUnif.Unification_Correctness <> XORUnification def
+R3717:3734 XORUnif.Unification_Correctness <> problems_unifiable def
+R3753:3773 XORUnif.Unification_Correctness <> XORUnification_solves thm
+R3753:3773 XORUnif.Unification_Correctness <> XORUnification_solves thm
+def 3813:3824 <> problem_orig
+R3828:3831 Coq.Init.Datatypes <> prod ind
+R3838:3841 XORUnif.TheoryDef <> term ind
+R3833:3836 XORUnif.TheoryDef <> term ind
+def 3855:3867 <> problems_orig
+R3871:3874 Coq.Init.Datatypes <> list ind
+R3876:3887 XORUnif.Unification_Correctness <> problem_orig def
+def 3902:3924 <> problem_orig_to_problem
+R3929:3940 XORUnif.Unification_Correctness <> problem_orig def
+binder 3926:3927 <> po:14
+R3943:3949 XORUnif.Unification <> problem def
+R3955:3956 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3979:3981 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4004:4005 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3957:3969 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R3972:3974 Coq.Init.Datatypes <> fst def
+R3976:3977 XORUnif.Unification_Correctness <> po:14 var
+R3982:3994 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R3997:3999 Coq.Init.Datatypes <> snd def
+R4001:4002 XORUnif.Unification_Correctness <> po:14 var
+def 4020:4044 <> problems_orig_to_problems
+R4050:4062 XORUnif.Unification_Correctness <> problems_orig def
+binder 4046:4048 <> pso:15
+R4065:4072 XORUnif.Unification <> problems def
+R4078:4080 Coq.Lists.List <> map def
+R4106:4108 XORUnif.Unification_Correctness <> pso:15 var
+R4082:4104 XORUnif.Unification_Correctness <> problem_orig_to_problem def
+def 4124:4141 <> equal_problem_orig
+R4145:4156 XORUnif.Unification_Correctness <> problem_orig def
+binder 4143:4143 <> p:16
+R4173:4176 XORUnif.TheoryDef <> :::x_'=='_x not
+R4168:4170 Coq.Init.Datatypes <> fst def
+R4172:4172 XORUnif.Unification_Correctness <> p:16 var
+R4177:4179 Coq.Init.Datatypes <> snd def
+R4181:4181 XORUnif.Unification_Correctness <> p:16 var
+def 4196:4217 <> apply_sub_problem_orig
+R4223:4225 XORUnif.Substitution <> sub def
+binder 4220:4221 <> sb:17
+R4230:4241 XORUnif.Unification_Correctness <> problem_orig def
+binder 4228:4228 <> p:18
+R4244:4255 XORUnif.Unification_Correctness <> problem_orig def
+R4261:4261 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4276:4277 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4292:4292 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4262:4264 XORUnif.Substitution <> lft def
+R4270:4272 Coq.Init.Datatypes <> fst def
+R4274:4274 XORUnif.Unification_Correctness <> p:18 var
+R4266:4267 XORUnif.Unification_Correctness <> sb:17 var
+R4278:4280 XORUnif.Substitution <> lft def
+R4286:4288 Coq.Init.Datatypes <> snd def
+R4290:4290 XORUnif.Unification_Correctness <> p:18 var
+R4282:4283 XORUnif.Unification_Correctness <> sb:17 var
+def 4307:4325 <> solves_problem_orig
+R4330:4332 XORUnif.Substitution <> sub def
+binder 4327:4328 <> sb:19
+R4338:4349 XORUnif.Unification_Correctness <> problem_orig def
+binder 4335:4336 <> po:20
+R4361:4378 XORUnif.Unification_Correctness <> equal_problem_orig def
+R4381:4402 XORUnif.Unification_Correctness <> apply_sub_problem_orig def
+R4404:4405 XORUnif.Unification_Correctness <> sb:19 var
+R4407:4408 XORUnif.Unification_Correctness <> po:20 var
+def 4424:4446 <> apply_sub_problems_orig
+R4452:4454 XORUnif.Substitution <> sub def
+binder 4449:4450 <> sb:21
+R4461:4473 XORUnif.Unification_Correctness <> problems_orig def
+binder 4457:4459 <> pos:22
+R4476:4488 XORUnif.Unification_Correctness <> problems_orig def
+R4494:4496 Coq.Lists.List <> map def
+R4526:4528 XORUnif.Unification_Correctness <> pos:22 var
+R4499:4520 XORUnif.Unification_Correctness <> apply_sub_problem_orig def
+R4522:4523 XORUnif.Unification_Correctness <> sb:21 var
+def 4543:4561 <> equal_problems_orig
+R4567:4579 XORUnif.Unification_Correctness <> problems_orig def
+binder 4563:4565 <> pos:23
+R4591:4596 Coq.Lists.List <> Forall ind
+R4617:4619 XORUnif.Unification_Correctness <> pos:23 var
+R4598:4615 XORUnif.Unification_Correctness <> equal_problem_orig def
+def 4634:4653 <> solves_problems_orig
+R4659:4661 XORUnif.Substitution <> sub def
+binder 4656:4657 <> sb:24
+R4668:4680 XORUnif.Unification_Correctness <> problems_orig def
+binder 4664:4666 <> pos:25
+R4692:4710 XORUnif.Unification_Correctness <> equal_problems_orig def
+R4713:4735 XORUnif.Unification_Correctness <> apply_sub_problems_orig def
+R4737:4738 XORUnif.Unification_Correctness <> sb:24 var
+R4740:4742 XORUnif.Unification_Correctness <> pos:25 var
+def 4758:4776 <> XORUnification_orig
+R4782:4794 XORUnif.Unification_Correctness <> problems_orig def
+binder 4778:4780 <> pso:26
+R4797:4802 Coq.Init.Datatypes <> option ind
+R4804:4806 XORUnif.Substitution <> sub def
+R4812:4825 XORUnif.Unification_Correctness <> XORUnification def
+R4828:4852 XORUnif.Unification_Correctness <> problems_orig_to_problems def
+R4854:4856 XORUnif.Unification_Correctness <> pso:26 var
+def 4873:4884 <> mgu_xor_orig
+R4889:4891 XORUnif.Substitution <> sub def
+binder 4886:4887 <> sb:27
+R4898:4910 XORUnif.Unification_Correctness <> problems_orig def
+binder 4894:4896 <> pos:28
+R4934:4936 XORUnif.Substitution <> sub def
+binder 4930:4932 <> sb1:29
+R4968:4973 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4940:4959 XORUnif.Unification_Correctness <> solves_problems_orig def
+R4961:4963 XORUnif.Unification_Correctness <> sb1:29 var
+R4965:4967 XORUnif.Unification_Correctness <> pos:28 var
+R4974:4984 XORUnif.Substitution <> leq_sub_xor def
+R4986:4987 XORUnif.Unification_Correctness <> sb:27 var
+R4989:4991 XORUnif.Unification_Correctness <> sb1:29 var
+def 5006:5031 <> not_solvable_problems_orig
+R5036:5048 XORUnif.Unification_Correctness <> problems_orig def
+binder 5033:5034 <> ps:30
+R5070:5072 XORUnif.Substitution <> sub def
+binder 5067:5068 <> sb:31
+R5075:5076 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5077:5096 XORUnif.Unification_Correctness <> solves_problems_orig def
+R5098:5099 XORUnif.Unification_Correctness <> sb:31 var
+R5101:5102 XORUnif.Unification_Correctness <> ps:30 var
+R5125:5143 XORUnif.Unification_Correctness <> solves_problem_orig def
+R5158:5175 XORUnif.Unification_Correctness <> equal_problem_orig def
+R5190:5211 XORUnif.Unification_Correctness <> apply_sub_problem_orig def
+R5252:5271 XORUnif.Unification_Correctness <> solves_problems_orig def
+R5286:5304 XORUnif.Unification_Correctness <> equal_problems_orig def
+R5319:5336 XORUnif.Unification_Correctness <> equal_problem_orig def
+R5351:5373 XORUnif.Unification_Correctness <> apply_sub_problems_orig def
+prf 5401:5432 <> XORUnification_not_solvable_orig
+R5444:5456 XORUnif.Unification_Correctness <> problems_orig def
+binder 5441:5442 <> ps:32
+R5491:5494 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5484:5486 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5462:5480 XORUnif.Unification_Correctness <> XORUnification_orig def
+R5482:5483 XORUnif.Unification_Correctness <> ps:32 var
+R5487:5490 Coq.Init.Datatypes <> None constr
+R5495:5520 XORUnif.Unification_Correctness <> not_solvable_problems_orig def
+R5522:5523 XORUnif.Unification_Correctness <> ps:32 var
+R5550:5568 XORUnif.Unification_Correctness <> XORUnification_orig def
+R5583:5608 XORUnif.Unification_Correctness <> not_solvable_problems_orig def
+R5619:5645 XORUnif.Unification_Correctness <> XORUnification_not_solvable thm
+R5619:5645 XORUnif.Unification_Correctness <> XORUnification_not_solvable thm
+R5660:5680 XORUnif.Unification <> not_solvable_problems def
+R5788:5798 Coq.Lists.List <> Forall_cons constr
+R5788:5798 Coq.Lists.List <> Forall_cons constr
+R5813:5822 Coq.Lists.List <> Forall_inv thm
+R5813:5822 Coq.Lists.List <> Forall_inv thm
+R5855:5870 XORUnif.Substitution <> lft_lftl_correct thm
+R5876:5878 Coq.Init.Datatypes <> fst def
+R5855:5870 XORUnif.Substitution <> lft_lftl_correct thm
+R5876:5878 Coq.Init.Datatypes <> fst def
+R5902:5917 XORUnif.Substitution <> lft_lftl_correct thm
+R5923:5925 Coq.Init.Datatypes <> snd def
+R5902:5917 XORUnif.Substitution <> lft_lftl_correct thm
+R5923:5925 Coq.Init.Datatypes <> snd def
+R5949:5956 XORUnif.ListTermRepresentation <> lr_trans constr
+R5959:5962 XORUnif.Substitution <> lftl def
+R5968:5980 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R5983:5985 Coq.Init.Datatypes <> fst def
+R5993:6005 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R6008:6010 XORUnif.Substitution <> lft def
+R6016:6018 Coq.Init.Datatypes <> fst def
+R6032:6035 XORUnif.Substitution <> lftl def
+R6041:6053 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R6056:6058 Coq.Init.Datatypes <> snd def
+R5949:5956 XORUnif.ListTermRepresentation <> lr_trans constr
+R5959:5962 XORUnif.Substitution <> lftl def
+R5968:5980 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R5983:5985 Coq.Init.Datatypes <> fst def
+R5993:6005 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R6008:6010 XORUnif.Substitution <> lft def
+R6016:6018 Coq.Init.Datatypes <> fst def
+R6032:6035 XORUnif.Substitution <> lftl def
+R6041:6053 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R6056:6058 Coq.Init.Datatypes <> snd def
+R6092:6097 XORUnif.ListTermRepresentation <> lr_sym constr
+R6092:6097 XORUnif.ListTermRepresentation <> lr_sym constr
+R6106:6121 XORUnif.Substitution <> lft_lftl_correct thm
+R6106:6121 XORUnif.Substitution <> lft_lftl_correct thm
+R6149:6154 XORUnif.ListTermRepresentation <> lr_sym constr
+R6149:6154 XORUnif.ListTermRepresentation <> lr_sym constr
+R6163:6168 XORUnif.ListTermRepresentation <> lr_sym constr
+R6163:6168 XORUnif.ListTermRepresentation <> lr_sym constr
+R6197:6204 XORUnif.ListTermRepresentation <> lr_trans constr
+R6223:6226 XORUnif.Substitution <> lftl def
+R6232:6244 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R6247:6249 Coq.Init.Datatypes <> snd def
+R6273:6285 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R6288:6290 XORUnif.Substitution <> lft def
+R6296:6298 Coq.Init.Datatypes <> snd def
+R6321:6333 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R6336:6338 XORUnif.Substitution <> lft def
+R6344:6346 Coq.Init.Datatypes <> fst def
+R6197:6204 XORUnif.ListTermRepresentation <> lr_trans constr
+R6223:6226 XORUnif.Substitution <> lftl def
+R6232:6244 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R6247:6249 Coq.Init.Datatypes <> snd def
+R6273:6285 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R6288:6290 XORUnif.Substitution <> lft def
+R6296:6298 Coq.Init.Datatypes <> snd def
+R6321:6333 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R6336:6338 XORUnif.Substitution <> lft def
+R6344:6346 Coq.Init.Datatypes <> fst def
+R6382:6387 XORUnif.ListTermRepresentation <> lr_sym constr
+R6382:6387 XORUnif.ListTermRepresentation <> lr_sym constr
+R6396:6411 XORUnif.Substitution <> lft_lftl_correct thm
+R6396:6411 XORUnif.Substitution <> lft_lftl_correct thm
+R6446:6451 XORUnif.ListTermRepresentation <> lr_sym constr
+R6446:6451 XORUnif.ListTermRepresentation <> lr_sym constr
+R6470:6484 XORUnif.ListTermRepresentation <> lTerm_eqv_Sound thm
+R6470:6484 XORUnif.ListTermRepresentation <> lTerm_eqv_Sound thm
+R6521:6535 Coq.Lists.List <> Forall_inv_tail thm
+R6521:6535 Coq.Lists.List <> Forall_inv_tail thm
+prf 6557:6582 <> XORUnification_orig_solves
+R6595:6607 XORUnif.Unification_Correctness <> problems_orig def
+binder 6591:6593 <> pso:33
+R6613:6615 XORUnif.Substitution <> sub def
+binder 6610:6611 <> sb:34
+R6654:6657 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6644:6646 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6621:6639 XORUnif.Unification_Correctness <> XORUnification_orig def
+R6641:6643 XORUnif.Unification_Correctness <> pso:33 var
+R6647:6650 Coq.Init.Datatypes <> Some constr
+R6652:6653 XORUnif.Unification_Correctness <> sb:34 var
+R6658:6677 XORUnif.Unification_Correctness <> solves_problems_orig def
+R6679:6680 XORUnif.Unification_Correctness <> sb:34 var
+R6682:6684 XORUnif.Unification_Correctness <> pso:33 var
+R6711:6729 XORUnif.Unification_Correctness <> XORUnification_orig def
+R6745:6765 XORUnif.Unification_Correctness <> XORUnification_solves thm
+R6745:6765 XORUnif.Unification_Correctness <> XORUnification_solves thm
+R6828:6838 Coq.Lists.List <> Forall_cons constr
+R6828:6838 Coq.Lists.List <> Forall_cons constr
+R6853:6862 Coq.Lists.List <> Forall_inv thm
+R6853:6862 Coq.Lists.List <> Forall_inv thm
+R6890:6912 XORUnif.Unification_Correctness <> problem_orig_to_problem def
+R6933:6935 XORUnif.Unification <> lhs def
+R6950:6952 XORUnif.Unification <> rhs def
+R6990:7005 XORUnif.Substitution <> lft_lftl_correct thm
+R7011:7013 Coq.Init.Datatypes <> fst def
+R6990:7005 XORUnif.Substitution <> lft_lftl_correct thm
+R7011:7013 Coq.Init.Datatypes <> fst def
+R7037:7052 XORUnif.Substitution <> lft_lftl_correct thm
+R7058:7060 Coq.Init.Datatypes <> snd def
+R7037:7052 XORUnif.Substitution <> lft_lftl_correct thm
+R7058:7060 Coq.Init.Datatypes <> snd def
+R7084:7091 XORUnif.ListTermRepresentation <> lr_trans constr
+R7084:7091 XORUnif.ListTermRepresentation <> lr_trans constr
+R7112:7117 XORUnif.ListTermRepresentation <> lr_sym constr
+R7112:7117 XORUnif.ListTermRepresentation <> lr_sym constr
+R7143:7150 XORUnif.ListTermRepresentation <> lr_trans constr
+R7143:7150 XORUnif.ListTermRepresentation <> lr_trans constr
+R7179:7196 XORUnif.ListTermRepresentation <> lTerm_eqv_Complete thm
+R7179:7196 XORUnif.ListTermRepresentation <> lTerm_eqv_Complete thm
+R7234:7248 Coq.Lists.List <> Forall_inv_tail thm
+R7234:7248 Coq.Lists.List <> Forall_inv_tail thm
+prf 7271:7293 <> XORUnification_mgu_orig
+R7306:7318 XORUnif.Unification_Correctness <> problems_orig def
+binder 7302:7304 <> pos:35
+R7324:7326 XORUnif.Substitution <> sub def
+binder 7321:7322 <> sb:36
+R7365:7368 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7355:7357 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7332:7350 XORUnif.Unification_Correctness <> XORUnification_orig def
+R7352:7354 XORUnif.Unification_Correctness <> pos:35 var
+R7358:7361 Coq.Init.Datatypes <> Some constr
+R7363:7364 XORUnif.Unification_Correctness <> sb:36 var
+R7369:7380 XORUnif.Unification_Correctness <> mgu_xor_orig def
+R7382:7383 XORUnif.Unification_Correctness <> sb:36 var
+R7385:7387 XORUnif.Unification_Correctness <> pos:35 var
+R7414:7432 XORUnif.Unification_Correctness <> XORUnification_orig def
+R7449:7466 XORUnif.Unification_Correctness <> XORUnification_mgu thm
+R7449:7466 XORUnif.Unification_Correctness <> XORUnification_mgu thm
+R7481:7487 XORUnif.Unification <> mgu_xor def
+R7504:7515 XORUnif.Unification_Correctness <> mgu_xor_orig def
+R7637:7647 Coq.Lists.List <> Forall_cons constr
+R7637:7647 Coq.Lists.List <> Forall_cons constr
+R7662:7671 Coq.Lists.List <> Forall_inv thm
+R7662:7671 Coq.Lists.List <> Forall_inv thm
+R7704:7719 XORUnif.Substitution <> lft_lftl_correct thm
+R7726:7728 Coq.Init.Datatypes <> fst def
+R7704:7719 XORUnif.Substitution <> lft_lftl_correct thm
+R7726:7728 Coq.Init.Datatypes <> fst def
+R7752:7767 XORUnif.Substitution <> lft_lftl_correct thm
+R7774:7776 Coq.Init.Datatypes <> snd def
+R7752:7767 XORUnif.Substitution <> lft_lftl_correct thm
+R7774:7776 Coq.Init.Datatypes <> snd def
+R7800:7807 XORUnif.ListTermRepresentation <> lr_trans constr
+R7810:7813 XORUnif.Substitution <> lftl def
+R7820:7832 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R7835:7837 Coq.Init.Datatypes <> fst def
+R7845:7857 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R7860:7862 XORUnif.Substitution <> lft def
+R7869:7871 Coq.Init.Datatypes <> fst def
+R7885:7888 XORUnif.Substitution <> lftl def
+R7895:7907 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R7910:7912 Coq.Init.Datatypes <> snd def
+R7800:7807 XORUnif.ListTermRepresentation <> lr_trans constr
+R7810:7813 XORUnif.Substitution <> lftl def
+R7820:7832 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R7835:7837 Coq.Init.Datatypes <> fst def
+R7845:7857 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R7860:7862 XORUnif.Substitution <> lft def
+R7869:7871 Coq.Init.Datatypes <> fst def
+R7885:7888 XORUnif.Substitution <> lftl def
+R7895:7907 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R7910:7912 Coq.Init.Datatypes <> snd def
+R7946:7951 XORUnif.ListTermRepresentation <> lr_sym constr
+R7946:7951 XORUnif.ListTermRepresentation <> lr_sym constr
+R7960:7975 XORUnif.Substitution <> lft_lftl_correct thm
+R7960:7975 XORUnif.Substitution <> lft_lftl_correct thm
+R8003:8008 XORUnif.ListTermRepresentation <> lr_sym constr
+R8003:8008 XORUnif.ListTermRepresentation <> lr_sym constr
+R8017:8022 XORUnif.ListTermRepresentation <> lr_sym constr
+R8017:8022 XORUnif.ListTermRepresentation <> lr_sym constr
+R8051:8058 XORUnif.ListTermRepresentation <> lr_trans constr
+R8077:8080 XORUnif.Substitution <> lftl def
+R8087:8099 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R8102:8104 Coq.Init.Datatypes <> snd def
+R8128:8140 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R8143:8145 XORUnif.Substitution <> lft def
+R8152:8154 Coq.Init.Datatypes <> snd def
+R8177:8189 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R8192:8194 XORUnif.Substitution <> lft def
+R8201:8203 Coq.Init.Datatypes <> fst def
+R8051:8058 XORUnif.ListTermRepresentation <> lr_trans constr
+R8077:8080 XORUnif.Substitution <> lftl def
+R8087:8099 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R8102:8104 Coq.Init.Datatypes <> snd def
+R8128:8140 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R8143:8145 XORUnif.Substitution <> lft def
+R8152:8154 Coq.Init.Datatypes <> snd def
+R8177:8189 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R8192:8194 XORUnif.Substitution <> lft def
+R8201:8203 Coq.Init.Datatypes <> fst def
+R8239:8244 XORUnif.ListTermRepresentation <> lr_sym constr
+R8239:8244 XORUnif.ListTermRepresentation <> lr_sym constr
+R8253:8268 XORUnif.Substitution <> lft_lftl_correct thm
+R8253:8268 XORUnif.Substitution <> lft_lftl_correct thm
+R8303:8308 XORUnif.ListTermRepresentation <> lr_sym constr
+R8303:8308 XORUnif.ListTermRepresentation <> lr_sym constr
+R8317:8331 XORUnif.ListTermRepresentation <> lTerm_eqv_Sound thm
+R8317:8331 XORUnif.ListTermRepresentation <> lTerm_eqv_Sound thm
+R8369:8383 Coq.Lists.List <> Forall_inv_tail thm
+R8369:8383 Coq.Lists.List <> Forall_inv_tail thm
+prf 8406:8429 <> XORUnification_idpt_orig
+R8441:8453 XORUnif.Unification_Correctness <> problems_orig def
+binder 8438:8439 <> ps:37
+R8459:8461 XORUnif.Substitution <> sub def
+binder 8456:8457 <> sb:38
+R8499:8502 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8489:8491 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8467:8485 XORUnif.Unification_Correctness <> XORUnification_orig def
+R8487:8488 XORUnif.Unification_Correctness <> ps:37 var
+R8492:8495 Coq.Init.Datatypes <> Some constr
+R8497:8498 XORUnif.Unification_Correctness <> sb:38 var
+R8503:8512 XORUnif.Substitution <> idempotent def
+R8514:8515 XORUnif.Unification_Correctness <> sb:38 var
+R8542:8560 XORUnif.Unification_Correctness <> XORUnification_orig def
+R8574:8592 XORUnif.Unification_Correctness <> XORUnification_idpt thm
+R8574:8592 XORUnif.Unification_Correctness <> XORUnification_idpt thm
+def 8625:8647 <> problems_unifiable_orig
+R8652:8664 XORUnif.Unification_Correctness <> problems_orig def
+binder 8649:8650 <> ps:39
+R8676:8682 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8689:8690 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8686:8688 XORUnif.Substitution <> sub def
+binder 8683:8684 <> sb:40
+R8691:8710 XORUnif.Unification_Correctness <> solves_problems_orig def
+R8712:8713 XORUnif.Unification_Correctness <> sb:40 var
+R8715:8716 XORUnif.Unification_Correctness <> ps:39 var
+prf 8728:8752 <> unifiable_return_sub_orig
+R8764:8776 XORUnif.Unification_Correctness <> problems_orig def
+binder 8761:8762 <> ps:41
+R8808:8812 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8860:8860 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8782:8804 XORUnif.Unification_Correctness <> problems_unifiable_orig def
+R8806:8807 XORUnif.Unification_Correctness <> ps:41 var
+R8813:8819 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8826:8827 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8823:8825 XORUnif.Substitution <> sub def
+binder 8820:8821 <> sb:42
+R8850:8852 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8828:8846 XORUnif.Unification_Correctness <> XORUnification_orig def
+R8848:8849 XORUnif.Unification_Correctness <> ps:41 var
+R8853:8856 Coq.Init.Datatypes <> Some constr
+R8858:8859 XORUnif.Unification_Correctness <> sb:42 var
+R8890:8908 XORUnif.Unification_Correctness <> XORUnification_orig def
+R8890:8908 XORUnif.Unification_Correctness <> XORUnification_orig def
+R8951:8973 XORUnif.Unification_Correctness <> problems_unifiable_orig def
+R8991:9022 XORUnif.Unification_Correctness <> XORUnification_not_solvable_orig thm
+R8991:9022 XORUnif.Unification_Correctness <> XORUnification_not_solvable_orig thm
+R9037:9062 XORUnif.Unification_Correctness <> not_solvable_problems_orig def
+prf 9131:9160 <> not_unifiable_return_None_orig
+R9172:9184 XORUnif.Unification_Correctness <> problems_orig def
+binder 9169:9170 <> ps:43
+R9220:9223 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9190:9192 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9219:9219 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9193:9215 XORUnif.Unification_Correctness <> problems_unifiable_orig def
+R9217:9218 XORUnif.Unification_Correctness <> ps:43 var
+R9246:9248 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9224:9242 XORUnif.Unification_Correctness <> XORUnification_orig def
+R9244:9245 XORUnif.Unification_Correctness <> ps:43 var
+R9249:9252 Coq.Init.Datatypes <> None constr
+R9282:9300 XORUnif.Unification_Correctness <> XORUnification_orig def
+R9282:9300 XORUnif.Unification_Correctness <> XORUnification_orig def
+R9342:9364 XORUnif.Unification_Correctness <> problems_unifiable_orig def
+R9383:9408 XORUnif.Unification_Correctness <> XORUnification_orig_solves thm
+R9383:9408 XORUnif.Unification_Correctness <> XORUnification_orig_solves thm

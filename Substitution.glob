@@ -1,0 +1,1017 @@
+DIGEST 809e35e20ff6e655798b952456a9908b
+FXORUnif.Substitution
+R146:152 XORUnif.Reduced <> <> lib
+R170:193 Coq.Logic.Classical_Prop <> <> lib
+def 208:210 <> sub
+R225:228 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R222:224 XORUnif.TheoryDef <> var def
+R229:232 XORUnif.TheoryDef <> term ind
+def 246:248 <> lft
+R254:256 XORUnif.Substitution <> sub def
+binder 251:252 <> sb:1
+R266:269 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R262:265 XORUnif.TheoryDef <> term ind
+R270:273 XORUnif.TheoryDef <> term ind
+R281:283 XORUnif.Substitution <> lft:5 def
+R289:289 XORUnif.TheoryDef <> C constr
+R291:291 XORUnif.Substitution <> n:3 var
+R285:286 XORUnif.Substitution <> sb:4 var
+R289:291 XORUnif.TheoryDef <> C constr
+R304:306 XORUnif.Substitution <> lft:8 def
+R312:312 XORUnif.TheoryDef <> V constr
+R314:314 XORUnif.Substitution <> v:7 var
+R308:309 XORUnif.Substitution <> sb:6 var
+R312:314 XORUnif.TheoryDef <> V constr
+R328:330 XORUnif.Substitution <> lft:12 def
+R338:341 XORUnif.TheoryDef <> :::x_'+'''_x not
+R336:337 XORUnif.Substitution <> t1:10 var
+R342:343 XORUnif.Substitution <> t2:11 var
+R332:333 XORUnif.Substitution <> sb:9 var
+R336:343 XORUnif.TheoryDef <> Oplus constr
+R297:297 XORUnif.TheoryDef <> C constr
+R358:361 XORUnif.TheoryDef <> :::x_'+'''_x not
+R349:351 XORUnif.Substitution <> lft:2 def
+R362:364 XORUnif.Substitution <> lft:2 def
+def 385:388 <> lftl
+R394:396 XORUnif.Substitution <> sub def
+binder 391:392 <> sb:13
+R405:408 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R400:404 XORUnif.ListTermRepresentation <> lTerm abbrev
+R409:413 XORUnif.ListTermRepresentation <> lTerm abbrev
+binder 424:425 <> lt:14
+R430:432 Coq.Lists.List <> map def
+R443:444 XORUnif.Substitution <> lt:14 var
+R435:437 XORUnif.Substitution <> lft def
+R439:440 XORUnif.Substitution <> sb:13 var
+prf 456:475 <> lft_lftl_correct_nat
+R489:491 XORUnif.Substitution <> sub def
+binder 486:487 <> sb:15
+R496:498 Coq.Init.Datatypes <> nat ind
+binder 494:494 <> n:16
+R532:536 XORUnif.ListTermRepresentation <> :::x_'=l='_x not
+R504:516 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R519:521 XORUnif.Substitution <> lft def
+R527:527 XORUnif.TheoryDef <> C constr
+R529:529 XORUnif.Substitution <> n:16 var
+R523:524 XORUnif.Substitution <> sb:15 var
+R537:540 XORUnif.Substitution <> lftl def
+R542:543 XORUnif.Substitution <> sb:15 var
+R546:558 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R561:561 XORUnif.TheoryDef <> C constr
+R563:563 XORUnif.Substitution <> n:16 var
+prf 641:660 <> lft_lftl_correct_var
+R674:676 XORUnif.Substitution <> sub def
+binder 671:672 <> sb:17
+R681:683 XORUnif.TheoryDef <> var def
+binder 679:679 <> v:18
+R717:721 XORUnif.ListTermRepresentation <> :::x_'=l='_x not
+R689:701 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R704:706 XORUnif.Substitution <> lft def
+R712:712 XORUnif.TheoryDef <> V constr
+R714:714 XORUnif.Substitution <> v:18 var
+R708:709 XORUnif.Substitution <> sb:17 var
+R722:725 XORUnif.Substitution <> lftl def
+R727:728 XORUnif.Substitution <> sb:17 var
+R731:743 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R746:746 XORUnif.TheoryDef <> V constr
+R748:748 XORUnif.Substitution <> v:18 var
+R793:798 XORUnif.ListTermRepresentation <> lr_sym constr
+R793:798 XORUnif.ListTermRepresentation <> lr_sym constr
+R809:832 XORUnif.ListTermRepresentation <> listTransCorrect_lr_term thm
+R809:832 XORUnif.ListTermRepresentation <> listTransCorrect_lr_term thm
+prf 847:862 <> lft_lftl_correct
+R876:878 XORUnif.Substitution <> sub def
+binder 873:874 <> sb:19
+R883:886 XORUnif.TheoryDef <> term ind
+binder 881:881 <> t:20
+R916:920 XORUnif.ListTermRepresentation <> :::x_'=l='_x not
+R892:904 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R907:909 XORUnif.Substitution <> lft def
+R914:914 XORUnif.Substitution <> t:20 var
+R911:912 XORUnif.Substitution <> sb:19 var
+R921:924 XORUnif.Substitution <> lftl def
+R926:927 XORUnif.Substitution <> sb:19 var
+R930:942 XORUnif.ListTermRepresentation <> term_to_lTerm def
+R944:944 XORUnif.Substitution <> t:20 var
+R988:1007 XORUnif.Substitution <> lft_lftl_correct_nat thm
+R988:1007 XORUnif.Substitution <> lft_lftl_correct_nat thm
+R1020:1039 XORUnif.Substitution <> lft_lftl_correct_var thm
+R1020:1039 XORUnif.Substitution <> lft_lftl_correct_var thm
+R1080:1088 XORUnif.ListTermRepresentation <> lr_compat constr
+R1080:1088 XORUnif.ListTermRepresentation <> lr_compat constr
+R1121:1124 XORUnif.Substitution <> lftl def
+R1135:1141 Coq.Lists.List <> map_app thm
+R1135:1141 Coq.Lists.List <> map_app thm
+R1135:1141 Coq.Lists.List <> map_app thm
+R1151:1154 XORUnif.Substitution <> lftl def
+prf 1181:1196 <> lftl_lft_correct
+R1208:1210 XORUnif.Substitution <> sub def
+binder 1205:1206 <> sb:21
+R1216:1220 XORUnif.ListTermRepresentation <> lTerm abbrev
+binder 1213:1214 <> tl:22
+R1252:1255 XORUnif.TheoryDef <> :::x_'=='_x not
+R1226:1238 XORUnif.ListTermRepresentation <> lTerm_to_term def
+R1241:1244 XORUnif.Substitution <> lftl def
+R1246:1247 XORUnif.Substitution <> sb:21 var
+R1249:1250 XORUnif.Substitution <> tl:22 var
+R1256:1258 XORUnif.Substitution <> lft def
+R1264:1276 XORUnif.ListTermRepresentation <> lTerm_to_term def
+R1278:1279 XORUnif.Substitution <> tl:22 var
+R1260:1261 XORUnif.Substitution <> sb:21 var
+R1332:1333 XORUnif.TheoryDef <> T0 def
+R1386:1397 XORUnif.TheoryDef <> Oplus_compat constr
+R1386:1397 XORUnif.TheoryDef <> Oplus_compat constr
+def 1439:1444 <> id_sub
+R1446:1448 XORUnif.Substitution <> sub def
+R1454:1459 XORUnif.Substitution <> id_sub:25 def
+R1461:1461 XORUnif.Substitution <> v:24 var
+R1466:1466 XORUnif.TheoryDef <> V constr
+prf 1479:1490 <> id_is_id_lft
+R1502:1505 XORUnif.TheoryDef <> term ind
+binder 1500:1500 <> t:26
+R1523:1525 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1511:1513 XORUnif.Substitution <> lft def
+R1522:1522 XORUnif.Substitution <> t:26 var
+R1515:1520 XORUnif.Substitution <> id_sub def
+R1526:1526 XORUnif.Substitution <> t:26 var
+prf 1599:1611 <> id_is_id_lftl
+R1624:1628 XORUnif.ListTermRepresentation <> lTerm abbrev
+binder 1621:1622 <> lt:27
+R1648:1650 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1634:1637 XORUnif.Substitution <> lftl def
+R1639:1644 XORUnif.Substitution <> id_sub def
+R1646:1647 XORUnif.Substitution <> lt:27 var
+R1651:1652 XORUnif.Substitution <> lt:27 var
+def 1778:1788 <> compose_sub
+binder 1790:1793 <> tau2:28
+binder 1795:1798 <> tau1:29
+R1802:1804 XORUnif.Substitution <> sub def
+binder 1815:1815 <> v:30
+R1820:1822 XORUnif.Substitution <> lft def
+R1830:1833 XORUnif.Substitution <> tau1:29 var
+R1835:1835 XORUnif.Substitution <> v:30 var
+R1824:1827 XORUnif.Substitution <> tau2:28 var
+prf 1846:1861 <> compose_sub_lft'
+R1879:1881 XORUnif.Substitution <> sub def
+binder 1871:1873 <> sb1:31
+binder 1875:1877 <> sb2:32
+R1886:1889 XORUnif.TheoryDef <> term ind
+binder 1884:1884 <> t:33
+R1922:1926 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1895:1897 XORUnif.Substitution <> lft def
+R1921:1921 XORUnif.Substitution <> t:33 var
+R1900:1910 XORUnif.Substitution <> compose_sub def
+R1912:1914 XORUnif.Substitution <> sb1:31 var
+R1916:1918 XORUnif.Substitution <> sb2:32 var
+R1927:1929 XORUnif.Substitution <> lft def
+R1936:1938 XORUnif.Substitution <> lft def
+R1944:1944 XORUnif.Substitution <> t:33 var
+R1940:1942 XORUnif.Substitution <> sb2:32 var
+R1931:1933 XORUnif.Substitution <> sb1:31 var
+prf 2017:2031 <> compose_sub_lft
+R2049:2051 XORUnif.Substitution <> sub def
+binder 2041:2043 <> sb1:34
+binder 2045:2047 <> sb2:35
+R2057:2061 XORUnif.ListTermRepresentation <> lTerm abbrev
+binder 2054:2055 <> lt:36
+R2096:2100 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2067:2070 XORUnif.Substitution <> lftl def
+R2073:2083 XORUnif.Substitution <> compose_sub def
+R2085:2087 XORUnif.Substitution <> sb1:34 var
+R2089:2091 XORUnif.Substitution <> sb2:35 var
+R2094:2095 XORUnif.Substitution <> lt:36 var
+R2101:2104 XORUnif.Substitution <> lftl def
+R2106:2108 XORUnif.Substitution <> sb1:34 var
+R2111:2114 XORUnif.Substitution <> lftl def
+R2116:2118 XORUnif.Substitution <> sb2:35 var
+R2120:2121 XORUnif.Substitution <> lt:36 var
+R2179:2194 XORUnif.Substitution <> compose_sub_lft' thm
+R2179:2194 XORUnif.Substitution <> compose_sub_lft' thm
+R2179:2194 XORUnif.Substitution <> compose_sub_lft' thm
+prf 2222:2235 <> compose_ok_var
+R2252:2254 XORUnif.Substitution <> sub def
+binder 2244:2246 <> sb1:37
+binder 2248:2250 <> sb2:38
+R2259:2261 XORUnif.TheoryDef <> var def
+binder 2257:2257 <> v:39
+R2290:2292 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2268:2278 XORUnif.Substitution <> compose_sub def
+R2280:2282 XORUnif.Substitution <> sb1:37 var
+R2284:2286 XORUnif.Substitution <> sb2:38 var
+R2289:2289 XORUnif.Substitution <> v:39 var
+R2293:2295 XORUnif.Substitution <> lft def
+R2302:2304 XORUnif.Substitution <> sb2:38 var
+R2306:2306 XORUnif.Substitution <> v:39 var
+R2297:2299 XORUnif.Substitution <> sb1:37 var
+prf 2345:2361 <> compose_sub_assoc
+R2383:2385 XORUnif.Substitution <> sub def
+binder 2371:2373 <> sb1:40
+binder 2375:2377 <> sb2:41
+binder 2379:2381 <> sb3:42
+R2428:2433 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2391:2401 XORUnif.Substitution <> compose_sub def
+R2403:2405 XORUnif.Substitution <> sb1:40 var
+R2408:2418 XORUnif.Substitution <> compose_sub def
+R2420:2422 XORUnif.Substitution <> sb2:41 var
+R2424:2426 XORUnif.Substitution <> sb3:42 var
+R2434:2444 XORUnif.Substitution <> compose_sub def
+R2447:2457 XORUnif.Substitution <> compose_sub def
+R2459:2461 XORUnif.Substitution <> sb1:40 var
+R2463:2465 XORUnif.Substitution <> sb2:41 var
+R2468:2470 XORUnif.Substitution <> sb3:42 var
+R2496:2520 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R2496:2520 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R2548:2561 XORUnif.Substitution <> compose_ok_var thm
+R2548:2561 XORUnif.Substitution <> compose_ok_var thm
+R2548:2561 XORUnif.Substitution <> compose_ok_var thm
+R2548:2561 XORUnif.Substitution <> compose_ok_var thm
+R2548:2561 XORUnif.Substitution <> compose_ok_var thm
+R2548:2561 XORUnif.Substitution <> compose_ok_var thm
+R2548:2561 XORUnif.Substitution <> compose_ok_var thm
+R2548:2561 XORUnif.Substitution <> compose_ok_var thm
+R2572:2587 XORUnif.Substitution <> compose_sub_lft' thm
+R2572:2587 XORUnif.Substitution <> compose_sub_lft' thm
+R2572:2587 XORUnif.Substitution <> compose_sub_lft' thm
+prf 2608:2619 <> compose_id_r
+R2631:2633 XORUnif.Substitution <> sub def
+binder 2628:2629 <> sb:43
+R2660:2662 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2639:2649 XORUnif.Substitution <> compose_sub def
+R2651:2652 XORUnif.Substitution <> sb:43 var
+R2654:2659 XORUnif.Substitution <> id_sub def
+R2663:2664 XORUnif.Substitution <> sb:43 var
+R2691:2701 XORUnif.Substitution <> compose_sub def
+R2710:2734 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R2710:2734 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+prf 2788:2799 <> compose_id_l
+R2811:2813 XORUnif.Substitution <> sub def
+binder 2808:2809 <> sb:44
+R2840:2842 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2819:2829 XORUnif.Substitution <> compose_sub def
+R2831:2836 XORUnif.Substitution <> id_sub def
+R2838:2839 XORUnif.Substitution <> sb:44 var
+R2843:2844 XORUnif.Substitution <> sb:44 var
+R2871:2881 XORUnif.Substitution <> compose_sub def
+R2890:2914 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R2890:2914 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R2939:2950 XORUnif.Substitution <> id_is_id_lft thm
+R2939:2950 XORUnif.Substitution <> id_is_id_lft thm
+R2939:2950 XORUnif.Substitution <> id_is_id_lft thm
+def 2968:2973 <> var_of
+R2978:2980 XORUnif.TheoryDef <> var def
+binder 2976:2976 <> v:45
+R2985:2988 XORUnif.TheoryDef <> term ind
+binder 2983:2983 <> t:46
+R3008:3008 XORUnif.Substitution <> t:46 var
+R3020:3020 XORUnif.TheoryDef <> C constr
+R3027:3031 Coq.Init.Logic <> False ind
+R3038:3038 XORUnif.TheoryDef <> V constr
+R3049:3058 XORUnif.TheoryDef <> eq_dec_var def
+R3060:3060 XORUnif.Substitution <> v:45 var
+R3080:3084 Coq.Init.Logic <> False ind
+R3070:3073 Coq.Init.Logic <> True ind
+R3093:3096 XORUnif.TheoryDef <> :::x_'+'''_x not
+R3103:3103 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3115:3120 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3132:3132 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3104:3109 XORUnif.Substitution <> var_of:47 def
+R3111:3111 XORUnif.Substitution <> v:45 var
+R3121:3126 XORUnif.Substitution <> var_of:47 def
+R3128:3128 XORUnif.Substitution <> v:45 var
+def 3153:3161 <> var_of_tl
+R3166:3168 XORUnif.TheoryDef <> var def
+binder 3164:3164 <> v:49
+R3174:3178 XORUnif.ListTermRepresentation <> lTerm abbrev
+binder 3171:3172 <> tl:50
+R3196:3197 XORUnif.Substitution <> tl:50 var
+R3207:3208 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R3213:3217 Coq.Init.Logic <> False ind
+R3223:3224 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3242:3245 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R3232:3237 XORUnif.Substitution <> var_of def
+R3239:3239 XORUnif.Substitution <> v:49 var
+R3246:3254 XORUnif.Substitution <> var_of_tl:51 def
+R3256:3256 XORUnif.Substitution <> v:49 var
+def 3280:3289 <> Id_on_vars
+R3296:3298 XORUnif.Substitution <> sub def
+binder 3292:3294 <> tau:53
+R3304:3307 XORUnif.TheoryDef <> term ind
+binder 3302:3302 <> t:54
+binder 3322:3322 <> v:55
+R3335:3338 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3325:3330 XORUnif.Substitution <> var_of def
+R3332:3332 XORUnif.Substitution <> v:55 var
+R3334:3334 XORUnif.Substitution <> t:54 var
+R3344:3346 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3339:3341 XORUnif.Substitution <> tau:53 var
+R3343:3343 XORUnif.Substitution <> v:55 var
+R3347:3347 XORUnif.TheoryDef <> V constr
+R3349:3349 XORUnif.Substitution <> v:55 var
+prf 3360:3373 <> Id_on_vars_app
+R3386:3388 XORUnif.Substitution <> sub def
+binder 3383:3384 <> sb:56
+R3397:3400 XORUnif.TheoryDef <> term ind
+binder 3391:3392 <> t1:57
+binder 3394:3395 <> t2:58
+R3430:3434 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3406:3415 XORUnif.Substitution <> Id_on_vars def
+R3417:3418 XORUnif.Substitution <> sb:56 var
+R3423:3426 XORUnif.TheoryDef <> :::x_'+'''_x not
+R3421:3422 XORUnif.Substitution <> t1:57 var
+R3427:3428 XORUnif.Substitution <> t2:58 var
+R3451:3454 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3435:3444 XORUnif.Substitution <> Id_on_vars def
+R3446:3447 XORUnif.Substitution <> sb:56 var
+R3449:3450 XORUnif.Substitution <> t1:57 var
+R3455:3464 XORUnif.Substitution <> Id_on_vars def
+R3466:3467 XORUnif.Substitution <> sb:56 var
+R3469:3470 XORUnif.Substitution <> t2:58 var
+R3508:3517 XORUnif.Substitution <> Id_on_vars def
+R3628:3637 XORUnif.Substitution <> Id_on_vars def
+prf 3742:3756 <> Id_on_vars_Noop
+R3768:3770 XORUnif.Substitution <> sub def
+binder 3765:3766 <> sb:59
+R3775:3778 XORUnif.TheoryDef <> term ind
+binder 3773:3773 <> t:60
+R3799:3803 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3784:3793 XORUnif.Substitution <> Id_on_vars def
+R3795:3796 XORUnif.Substitution <> sb:59 var
+R3798:3798 XORUnif.Substitution <> t:60 var
+R3812:3814 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3804:3806 XORUnif.Substitution <> lft def
+R3811:3811 XORUnif.Substitution <> t:60 var
+R3808:3809 XORUnif.Substitution <> sb:59 var
+R3815:3815 XORUnif.Substitution <> t:60 var
+R3879:3888 XORUnif.Substitution <> Id_on_vars def
+R3912:3917 XORUnif.Substitution <> var_of def
+R3935:3944 XORUnif.TheoryDef <> eq_dec_var def
+R3935:3944 XORUnif.TheoryDef <> eq_dec_var def
+R3977:3990 XORUnif.Substitution <> Id_on_vars_app thm
+R3977:3990 XORUnif.Substitution <> Id_on_vars_app thm
+R4049:4058 XORUnif.Substitution <> Id_on_vars def
+R4123:4128 XORUnif.Substitution <> var_of def
+R4147:4156 XORUnif.TheoryDef <> eq_dec_var def
+R4147:4156 XORUnif.TheoryDef <> eq_dec_var def
+def 4266:4278 <> Id_on_vars_tl
+R4286:4288 XORUnif.Substitution <> sub def
+binder 4281:4283 <> tau:61
+R4296:4300 XORUnif.ListTermRepresentation <> lTerm abbrev
+binder 4292:4293 <> tl:62
+binder 4316:4316 <> v:63
+R4333:4336 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4319:4327 XORUnif.Substitution <> var_of_tl def
+R4329:4329 XORUnif.Substitution <> v:63 var
+R4331:4332 XORUnif.Substitution <> tl:62 var
+R4348:4350 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4337:4340 XORUnif.Substitution <> lftl def
+R4342:4344 XORUnif.Substitution <> tau:61 var
+R4346:4347 XORUnif.Substitution <> tl:62 var
+R4351:4352 XORUnif.Substitution <> tl:62 var
+prf 4364:4383 <> Id_on_vars_tl_remove
+R4395:4397 XORUnif.Substitution <> sub def
+binder 4392:4393 <> sb:64
+R4402:4405 XORUnif.TheoryDef <> term ind
+binder 4400:4400 <> t:65
+R4411:4415 XORUnif.ListTermRepresentation <> lTerm abbrev
+binder 4408:4409 <> tl:66
+R4447:4450 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4421:4433 XORUnif.Substitution <> Id_on_vars_tl def
+R4435:4436 XORUnif.Substitution <> sb:64 var
+R4440:4443 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4439:4439 XORUnif.Substitution <> t:65 var
+R4444:4445 XORUnif.Substitution <> tl:66 var
+R4451:4463 XORUnif.Substitution <> Id_on_vars_tl def
+R4465:4466 XORUnif.Substitution <> sb:64 var
+R4468:4469 XORUnif.Substitution <> tl:66 var
+R4496:4508 XORUnif.Substitution <> Id_on_vars_tl def
+R4567:4569 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4553:4556 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4545:4547 XORUnif.Substitution <> lft def
+R4557:4560 XORUnif.Substitution <> lftl def
+R4571:4574 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4567:4569 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4553:4556 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4545:4547 XORUnif.Substitution <> lft def
+R4557:4560 XORUnif.Substitution <> lftl def
+R4571:4574 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+prf 4654:4671 <> Id_on_vars_Noop_tl
+R4683:4685 XORUnif.Substitution <> sub def
+binder 4680:4681 <> sb:67
+R4691:4695 XORUnif.ListTermRepresentation <> lTerm abbrev
+binder 4688:4689 <> tl:68
+R4720:4724 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4701:4713 XORUnif.Substitution <> Id_on_vars_tl def
+R4715:4716 XORUnif.Substitution <> sb:67 var
+R4718:4719 XORUnif.Substitution <> tl:68 var
+R4735:4737 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4725:4728 XORUnif.Substitution <> lftl def
+R4730:4731 XORUnif.Substitution <> sb:67 var
+R4733:4734 XORUnif.Substitution <> tl:68 var
+R4738:4739 XORUnif.Substitution <> tl:68 var
+R4777:4786 XORUnif.Substitution <> Id_on_vars def
+R4848:4860 XORUnif.Substitution <> Id_on_vars_tl def
+R4881:4884 XORUnif.Substitution <> lftl def
+R4910:4924 XORUnif.Substitution <> Id_on_vars_Noop thm
+R4910:4924 XORUnif.Substitution <> Id_on_vars_Noop thm
+R4934:4943 XORUnif.Substitution <> Id_on_vars def
+R5016:5018 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4997:5000 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4989:4991 XORUnif.Substitution <> lft def
+R5001:5003 Coq.Lists.List <> map def
+R5006:5008 XORUnif.Substitution <> lft def
+R5020:5023 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5016:5018 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4997:5000 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4989:4991 XORUnif.Substitution <> lft def
+R5001:5003 Coq.Lists.List <> map def
+R5006:5008 XORUnif.Substitution <> lft def
+R5020:5023 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5090:5104 XORUnif.Substitution <> Id_on_vars_Noop thm
+R5090:5104 XORUnif.Substitution <> Id_on_vars_Noop thm
+R5120:5129 XORUnif.Substitution <> Id_on_vars def
+R5172:5191 XORUnif.Substitution <> Id_on_vars_tl_remove thm
+R5172:5191 XORUnif.Substitution <> Id_on_vars_tl_remove thm
+R5216:5228 XORUnif.Substitution <> Id_on_vars_tl def
+def 5261:5270 <> update_sub
+R5277:5280 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5274:5276 XORUnif.Substitution <> sub def
+R5284:5287 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5281:5283 XORUnif.TheoryDef <> var def
+R5292:5295 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5288:5291 XORUnif.TheoryDef <> term ind
+R5296:5298 XORUnif.Substitution <> sub def
+R5305:5314 XORUnif.Substitution <> update_sub:73 def
+R5322:5322 XORUnif.Substitution <> t:70 var
+R5320:5320 XORUnif.Substitution <> x:72 var
+R5316:5318 XORUnif.Substitution <> tau:71 var
+binder 5336:5336 <> v:74
+R5344:5353 XORUnif.TheoryDef <> eq_dec_var def
+R5357:5357 XORUnif.Substitution <> v:74 var
+R5405:5405 XORUnif.Substitution <> v:74 var
+prf 5415:5423 <> update_eq
+binder 5425:5427 <> tau:75
+binder 5429:5429 <> x:76
+binder 5431:5431 <> t:77
+R5467:5469 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5437:5439 XORUnif.Substitution <> lft def
+R5463:5463 XORUnif.TheoryDef <> V constr
+R5465:5465 XORUnif.Substitution <> x:76 var
+R5442:5451 XORUnif.Substitution <> update_sub def
+R5459:5459 XORUnif.Substitution <> t:77 var
+R5457:5457 XORUnif.Substitution <> x:76 var
+R5453:5455 XORUnif.Substitution <> tau:75 var
+R5470:5470 XORUnif.Substitution <> t:77 var
+R5524:5533 XORUnif.TheoryDef <> eq_dec_var def
+R5524:5533 XORUnif.TheoryDef <> eq_dec_var def
+prf 5553:5562 <> update_neq
+binder 5564:5566 <> tau:78
+binder 5568:5568 <> x:79
+binder 5570:5570 <> t:80
+binder 5572:5573 <> x1:81
+R5586:5591 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5580:5583 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R5579:5579 XORUnif.Substitution <> x:79 var
+R5584:5585 XORUnif.Substitution <> x1:81 var
+R5623:5630 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5592:5594 XORUnif.Substitution <> lft def
+R5618:5618 XORUnif.TheoryDef <> V constr
+R5620:5621 XORUnif.Substitution <> x1:81 var
+R5597:5606 XORUnif.Substitution <> update_sub def
+R5614:5614 XORUnif.Substitution <> t:80 var
+R5612:5612 XORUnif.Substitution <> x:79 var
+R5608:5610 XORUnif.Substitution <> tau:78 var
+R5631:5633 XORUnif.Substitution <> lft def
+R5640:5640 XORUnif.TheoryDef <> V constr
+R5642:5643 XORUnif.Substitution <> x1:81 var
+R5635:5637 XORUnif.Substitution <> tau:78 var
+R5706:5715 XORUnif.TheoryDef <> eq_dec_var def
+R5706:5715 XORUnif.TheoryDef <> eq_dec_var def
+def 5759:5771 <> singleton_sub
+R5777:5779 XORUnif.TheoryDef <> var def
+binder 5774:5774 <> x:82
+R5786:5789 XORUnif.TheoryDef <> term ind
+binder 5783:5783 <> t:83
+R5794:5796 XORUnif.Substitution <> sub def
+R5803:5812 XORUnif.Substitution <> update_sub def
+R5823:5823 XORUnif.Substitution <> t:83 var
+R5821:5821 XORUnif.Substitution <> x:82 var
+R5814:5819 XORUnif.Substitution <> id_sub def
+prf 5833:5850 <> Reduced_Ord_remove
+R5861:5864 XORUnif.TheoryDef <> term ind
+binder 5859:5859 <> t:84
+R5870:5874 XORUnif.ListTermRepresentation <> lTerm abbrev
+binder 5867:5868 <> tl:85
+R5898:5901 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5880:5890 XORUnif.Reduced <> Reduced_Ord ind
+R5893:5894 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5892:5892 XORUnif.Substitution <> t:84 var
+R5895:5896 XORUnif.Substitution <> tl:85 var
+R5902:5912 XORUnif.Reduced <> Reduced_Ord ind
+R5914:5915 XORUnif.Substitution <> tl:85 var
+R5961:5975 XORUnif.Reduced <> Reduced_Ord_All constr
+R5961:5975 XORUnif.Reduced <> Reduced_Ord_All constr
+R5984:5995 XORUnif.Reduced <> Reduced_cons thm
+R5984:5995 XORUnif.Reduced <> Reduced_cons thm
+R6022:6036 XORUnif.Order <> ltSorted_remove thm
+R6022:6036 XORUnif.Order <> ltSorted_remove thm
+prf 6057:6071 <> Reduced_Ord_app
+R6088:6092 XORUnif.ListTermRepresentation <> lTerm abbrev
+binder 6080:6082 <> tl1:86
+binder 6084:6086 <> tl2:87
+R6119:6122 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6098:6108 XORUnif.Reduced <> Reduced_Ord ind
+R6113:6114 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6110:6112 XORUnif.Substitution <> tl1:86 var
+R6115:6117 XORUnif.Substitution <> tl2:87 var
+R6138:6141 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6123:6133 XORUnif.Reduced <> Reduced_Ord ind
+R6135:6137 XORUnif.Substitution <> tl1:86 var
+R6142:6152 XORUnif.Reduced <> Reduced_Ord ind
+R6154:6156 XORUnif.Substitution <> tl2:87 var
+R6255:6272 XORUnif.Substitution <> Reduced_Ord_remove thm
+R6255:6272 XORUnif.Substitution <> Reduced_Ord_remove thm
+R6505:6522 CoLoR.Util.List.ListUtil <> notin_app thm
+R6505:6522 CoLoR.Util.List.ListUtil <> notin_app thm
+R6505:6522 CoLoR.Util.List.ListUtil <> notin_app thm
+R6705:6718 XORUnif.Reduced <> ltSorted_break thm
+R6722:6723 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6705:6718 XORUnif.Reduced <> ltSorted_break thm
+R6722:6723 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6766:6783 XORUnif.Substitution <> Reduced_Ord_remove thm
+R6766:6783 XORUnif.Substitution <> Reduced_Ord_remove thm
+prf 6826:6846 <> singleton_sub_not_dom
+R6857:6859 XORUnif.TheoryDef <> var def
+binder 6855:6855 <> v:88
+R6865:6869 XORUnif.ListTermRepresentation <> lTerm abbrev
+binder 6862:6863 <> tl:89
+R6874:6877 XORUnif.TheoryDef <> term ind
+binder 6872:6872 <> t:90
+R6897:6903 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6883:6893 XORUnif.Reduced <> Reduced_Ord ind
+R6895:6896 XORUnif.Substitution <> tl:89 var
+R6917:6923 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6904:6905 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6906:6907 Coq.Lists.List <> In def
+R6915:6916 XORUnif.Substitution <> tl:89 var
+R6910:6910 XORUnif.TheoryDef <> V constr
+R6912:6912 XORUnif.Substitution <> v:88 var
+R6951:6953 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6924:6927 XORUnif.Substitution <> lftl def
+R6930:6942 XORUnif.Substitution <> singleton_sub def
+R6944:6944 XORUnif.Substitution <> v:88 var
+R6946:6946 XORUnif.Substitution <> t:90 var
+R6949:6950 XORUnif.Substitution <> tl:89 var
+R6954:6955 XORUnif.Substitution <> tl:89 var
+R7102:7115 XORUnif.NReduced <> NReduced_NoDup thm
+R7102:7115 XORUnif.NReduced <> NReduced_NoDup thm
+R7200:7209 XORUnif.TheoryDef <> eq_dec_var def
+R7200:7209 XORUnif.TheoryDef <> eq_dec_var def
+R7265:7277 XORUnif.Substitution <> singleton_sub def
+R7296:7305 XORUnif.Substitution <> update_neq thm
+R7307:7312 XORUnif.Substitution <> id_sub def
+R7296:7305 XORUnif.Substitution <> update_neq thm
+R7307:7312 XORUnif.Substitution <> id_sub def
+R7344:7355 XORUnif.Substitution <> id_is_id_lft thm
+R7344:7355 XORUnif.Substitution <> id_is_id_lft thm
+R7344:7355 XORUnif.Substitution <> id_is_id_lft thm
+R7411:7428 XORUnif.Substitution <> Reduced_Ord_remove thm
+R7411:7428 XORUnif.Substitution <> Reduced_Ord_remove thm
+def 7481:7483 <> Dom
+R7491:7493 XORUnif.Substitution <> sub def
+binder 7486:7488 <> tau:91
+R7499:7501 XORUnif.TheoryDef <> var def
+binder 7496:7496 <> v:92
+R7522:7527 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R7531:7531 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R7516:7518 XORUnif.Substitution <> tau:91 var
+R7520:7520 XORUnif.Substitution <> v:92 var
+R7528:7528 XORUnif.TheoryDef <> V constr
+R7530:7530 XORUnif.Substitution <> v:92 var
+def 7547:7550 <> Domb
+R7558:7560 XORUnif.Substitution <> sub def
+binder 7553:7555 <> tau:93
+R7568:7571 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7565:7567 XORUnif.TheoryDef <> var def
+R7572:7575 Coq.Init.Datatypes <> bool ind
+binder 7586:7586 <> v:94
+R7591:7594 Coq.Init.Datatypes <> negb def
+R7597:7608 XORUnif.TheoryDef <> term_beq_syn def
+R7611:7613 XORUnif.Substitution <> tau:93 var
+R7615:7615 XORUnif.Substitution <> v:94 var
+R7619:7619 XORUnif.TheoryDef <> V constr
+R7621:7621 XORUnif.Substitution <> v:94 var
+inst 7680:7689 <> domOLD_dec
+binder 7691:7693 <> tau:95
+binder 7695:7695 <> v:96
+R7699:7703 XORUnif.Decidable <> Decbl class
+R7706:7708 XORUnif.Substitution <> Dom def
+R7710:7712 XORUnif.Substitution <> tau:95 var
+R7714:7714 XORUnif.Substitution <> v:96 var
+R7737:7752 XORUnif.TheoryDef <> term_beq_syn_dec thm
+R7763:7763 XORUnif.TheoryDef <> V constr
+R7737:7752 XORUnif.TheoryDef <> term_beq_syn_dec thm
+R7763:7763 XORUnif.TheoryDef <> V constr
+ind 7799:7802 <> DomI
+constr 7836:7839 <> DomC
+R7811:7813 XORUnif.Substitution <> sub def
+binder 7806:7808 <> tau:97
+R7819:7821 XORUnif.TheoryDef <> var def
+binder 7816:7816 <> v:98
+R7860:7863 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7850:7855 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R7859:7859 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R7844:7846 XORUnif.Substitution <> tau:97 var
+R7848:7848 XORUnif.Substitution <> v:98 var
+R7856:7856 XORUnif.TheoryDef <> V constr
+R7858:7858 XORUnif.Substitution <> v:98 var
+R7864:7867 XORUnif.Substitution <> DomI:99 ind
+R7873:7873 XORUnif.Substitution <> v:98 var
+R7869:7871 XORUnif.Substitution <> tau:97 var
+inst 7897:7904 <> domI_dec
+binder 7906:7908 <> tau:101
+binder 7910:7910 <> v:102
+R7914:7918 XORUnif.Decidable <> Decbl class
+R7921:7924 XORUnif.Substitution <> DomI ind
+R7926:7928 XORUnif.Substitution <> tau:101 var
+R7930:7930 XORUnif.Substitution <> v:102 var
+R7949:7953 XORUnif.Decidable <> Decbl class
+R7967:7982 XORUnif.TheoryDef <> term_beq_syn_dec thm
+R7993:7993 XORUnif.TheoryDef <> V constr
+R7967:7982 XORUnif.TheoryDef <> term_beq_syn_dec thm
+R7993:7993 XORUnif.TheoryDef <> V constr
+def 8097:8104 <> disjoint
+binder 8107:8107 <> T:103
+R8124:8127 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8123:8123 XORUnif.Substitution <> T:103 var
+binder 8117:8117 <> P:104
+binder 8119:8119 <> Q:105
+binder 8153:8153 <> t:106
+R8156:8156 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8160:8164 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8157:8157 XORUnif.Substitution <> P:104 var
+R8159:8159 XORUnif.Substitution <> t:106 var
+R8165:8165 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8169:8174 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8166:8166 XORUnif.Substitution <> Q:105 var
+R8168:8168 XORUnif.Substitution <> t:106 var
+R8175:8179 Coq.Init.Logic <> False ind
+prf 8189:8205 <> disjoint_dom_Noop
+R8213:8215 XORUnif.Substitution <> sub def
+binder 8208:8210 <> tau:107
+R8222:8225 XORUnif.TheoryDef <> term ind
+binder 8219:8219 <> t:108
+R8232:8232 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8273:8279 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8233:8240 XORUnif.Substitution <> disjoint def
+binder 8257:8257 <> x:109
+R8262:8267 XORUnif.Substitution <> var_of def
+R8269:8269 XORUnif.Substitution <> x:109 var
+R8271:8271 XORUnif.Substitution <> t:108 var
+R8243:8245 XORUnif.Substitution <> Dom def
+R8247:8249 XORUnif.Substitution <> tau:107 var
+R8289:8292 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8280:8282 XORUnif.Substitution <> lft def
+R8288:8288 XORUnif.Substitution <> t:108 var
+R8284:8286 XORUnif.Substitution <> tau:107 var
+R8293:8293 XORUnif.Substitution <> t:108 var
+R8378:8385 XORUnif.Substitution <> disjoint def
+R8420:8422 XORUnif.Substitution <> Dom def
+R8437:8442 XORUnif.Substitution <> var_of def
+R8465:8480 XORUnif.TheoryDef <> term_beq_syn_dec thm
+R8491:8491 XORUnif.TheoryDef <> V constr
+R8465:8480 XORUnif.TheoryDef <> term_beq_syn_dec thm
+R8491:8491 XORUnif.TheoryDef <> V constr
+R8545:8554 XORUnif.TheoryDef <> eq_dec_var def
+R8545:8554 XORUnif.TheoryDef <> eq_dec_var def
+R8651:8658 XORUnif.Substitution <> disjoint def
+R8757:8764 XORUnif.Substitution <> disjoint def
+prf 8848:8867 <> disjoint_dom_Noop_tl
+R8875:8877 XORUnif.Substitution <> sub def
+binder 8870:8872 <> tau:110
+R8885:8889 XORUnif.ListTermRepresentation <> lTerm abbrev
+binder 8881:8882 <> tl:111
+R8896:8896 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8941:8947 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8897:8904 XORUnif.Substitution <> disjoint def
+binder 8921:8921 <> x:112
+R8926:8934 XORUnif.Substitution <> var_of_tl def
+R8936:8936 XORUnif.Substitution <> x:112 var
+R8938:8939 XORUnif.Substitution <> tl:111 var
+R8907:8909 XORUnif.Substitution <> Dom def
+R8911:8913 XORUnif.Substitution <> tau:110 var
+R8959:8962 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8948:8951 XORUnif.Substitution <> lftl def
+R8953:8955 XORUnif.Substitution <> tau:110 var
+R8957:8958 XORUnif.Substitution <> tl:111 var
+R8963:8964 XORUnif.Substitution <> tl:111 var
+R8991:8998 XORUnif.Substitution <> disjoint def
+R9069:9083 XORUnif.Substitution <> Id_on_vars_Noop thm
+R9069:9083 XORUnif.Substitution <> Id_on_vars_Noop thm
+R9093:9102 XORUnif.Substitution <> Id_on_vars def
+R9141:9143 XORUnif.Substitution <> Dom def
+R9161:9176 XORUnif.TheoryDef <> term_beq_syn_dec thm
+R9187:9187 XORUnif.TheoryDef <> V constr
+R9161:9176 XORUnif.TheoryDef <> term_beq_syn_dec thm
+R9187:9187 XORUnif.TheoryDef <> V constr
+R9279:9281 XORUnif.Substitution <> Dom def
+ind 9346:9348 <> Ran
+constr 9383:9386 <> RanC
+R9356:9358 XORUnif.Substitution <> sub def
+binder 9351:9353 <> tau:113
+R9367:9370 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9363:9366 XORUnif.TheoryDef <> term ind
+R9401:9403 XORUnif.TheoryDef <> var def
+binder 9398:9398 <> v:116
+R9422:9425 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9413:9415 XORUnif.Substitution <> Dom def
+R9417:9419 XORUnif.Substitution <> tau:113 var
+R9421:9421 XORUnif.Substitution <> v:116 var
+R9426:9428 XORUnif.Substitution <> Ran:114 ind
+R9435:9437 XORUnif.Substitution <> tau:113 var
+R9439:9439 XORUnif.Substitution <> v:116 var
+R9430:9432 XORUnif.Substitution <> tau:113 var
+ind 9455:9458 <> Vran
+constr 9495:9499 <> VRanC
+R9466:9468 XORUnif.Substitution <> sub def
+binder 9461:9463 <> tau:117
+R9476:9478 XORUnif.TheoryDef <> var def
+binder 9472:9472 <> v:118
+R9505:9508 XORUnif.TheoryDef <> term ind
+binder 9502:9502 <> t:121
+R9512:9512 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9522:9547 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9513:9515 XORUnif.Substitution <> Ran ind
+R9517:9519 XORUnif.Substitution <> tau:117 var
+R9521:9521 XORUnif.Substitution <> t:121 var
+R9558:9582 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9548:9553 XORUnif.Substitution <> var_of def
+R9555:9555 XORUnif.Substitution <> v:118 var
+R9557:9557 XORUnif.Substitution <> t:121 var
+R9583:9586 XORUnif.Substitution <> Vran:119 ind
+R9592:9592 XORUnif.Substitution <> v:118 var
+R9588:9590 XORUnif.Substitution <> tau:117 var
+prf 9602:9612 <> vran_var_of
+R9620:9622 XORUnif.Substitution <> sub def
+binder 9615:9617 <> tau:122
+R9631:9633 XORUnif.TheoryDef <> var def
+binder 9626:9626 <> x:123
+binder 9628:9628 <> v:124
+R9650:9656 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9641:9643 XORUnif.Substitution <> Dom def
+R9645:9647 XORUnif.Substitution <> tau:122 var
+R9649:9649 XORUnif.Substitution <> x:123 var
+R9673:9680 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9657:9662 XORUnif.Substitution <> var_of def
+R9664:9664 XORUnif.Substitution <> v:124 var
+R9667:9669 XORUnif.Substitution <> tau:122 var
+R9671:9671 XORUnif.Substitution <> x:123 var
+R9681:9684 XORUnif.Substitution <> Vran ind
+R9686:9688 XORUnif.Substitution <> tau:122 var
+R9690:9690 XORUnif.Substitution <> v:124 var
+R9720:9724 XORUnif.Substitution <> VRanC constr
+R9720:9724 XORUnif.Substitution <> VRanC constr
+def 9757:9766 <> idempotent
+R9774:9776 XORUnif.Substitution <> sub def
+binder 9769:9771 <> tau:125
+R9791:9791 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9811:9814 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9792:9802 XORUnif.Substitution <> compose_sub def
+R9804:9806 XORUnif.Substitution <> tau:125 var
+R9808:9810 XORUnif.Substitution <> tau:125 var
+R9815:9817 XORUnif.Substitution <> tau:125 var
+def 9833:9849 <> dom_vran_disjoint
+R9858:9860 XORUnif.Substitution <> sub def
+binder 9853:9855 <> tau:126
+R9886:9888 XORUnif.TheoryDef <> var def
+binder 9883:9883 <> x:127
+R9905:9912 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9896:9898 XORUnif.Substitution <> Dom def
+R9900:9902 XORUnif.Substitution <> tau:126 var
+R9904:9904 XORUnif.Substitution <> x:127 var
+R9923:9926 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9913:9916 XORUnif.Substitution <> Vran ind
+R9918:9920 XORUnif.Substitution <> tau:126 var
+R9922:9922 XORUnif.Substitution <> x:127 var
+R9927:9931 Coq.Init.Logic <> False ind
+prf 9942:9948 <> not_dom
+R9956:9958 XORUnif.Substitution <> sub def
+binder 9951:9953 <> tau:128
+R9965:9967 XORUnif.TheoryDef <> var def
+binder 9962:9962 <> x:129
+R9984:9989 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9973:9974 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9975:9977 XORUnif.Substitution <> Dom def
+R9979:9981 XORUnif.Substitution <> tau:128 var
+R9983:9983 XORUnif.Substitution <> x:129 var
+R9995:9997 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9990:9992 XORUnif.Substitution <> tau:128 var
+R9994:9994 XORUnif.Substitution <> x:129 var
+R9998:9998 XORUnif.TheoryDef <> V constr
+R10000:10000 XORUnif.Substitution <> x:129 var
+R10019:10021 XORUnif.Substitution <> Dom def
+R10042:10047 XORUnif.Decidable <> dec_DN thm
+R10042:10047 XORUnif.Decidable <> dec_DN thm
+R10060:10075 XORUnif.TheoryDef <> term_beq_syn_dec thm
+R10060:10075 XORUnif.TheoryDef <> term_beq_syn_dec thm
+prf 10100:10107 <> noop_lft
+R10115:10117 XORUnif.Substitution <> sub def
+binder 10110:10112 <> tau:130
+R10124:10127 XORUnif.TheoryDef <> term ind
+binder 10121:10121 <> t:131
+R10134:10134 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10171:10179 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 10142:10142 <> x:132
+R10155:10159 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10145:10150 XORUnif.Substitution <> var_of def
+R10152:10152 XORUnif.Substitution <> x:132 var
+R10154:10154 XORUnif.Substitution <> t:131 var
+R10160:10161 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10162:10164 XORUnif.Substitution <> Dom def
+R10166:10168 XORUnif.Substitution <> tau:130 var
+R10170:10170 XORUnif.Substitution <> x:132 var
+R10189:10191 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10180:10182 XORUnif.Substitution <> lft def
+R10188:10188 XORUnif.Substitution <> t:131 var
+R10184:10186 XORUnif.Substitution <> tau:130 var
+R10192:10192 XORUnif.Substitution <> t:131 var
+R10218:10232 XORUnif.Substitution <> Id_on_vars_Noop thm
+R10218:10232 XORUnif.Substitution <> Id_on_vars_Noop thm
+R10242:10251 XORUnif.Substitution <> Id_on_vars def
+R10307:10313 XORUnif.Substitution <> not_dom thm
+R10307:10313 XORUnif.Substitution <> not_dom thm
+prf 10341:10351 <> noop_lft_tl
+R10357:10359 XORUnif.Substitution <> sub def
+binder 10353:10355 <> tau:133
+R10365:10369 XORUnif.ListTermRepresentation <> lTerm abbrev
+binder 10362:10363 <> tl:134
+R10375:10375 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10415:10423 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 10383:10383 <> x:135
+R10400:10403 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10386:10394 XORUnif.Substitution <> var_of_tl def
+R10396:10396 XORUnif.Substitution <> x:135 var
+R10398:10399 XORUnif.Substitution <> tl:134 var
+R10404:10405 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10406:10408 XORUnif.Substitution <> Dom def
+R10410:10412 XORUnif.Substitution <> tau:133 var
+R10414:10414 XORUnif.Substitution <> x:135 var
+R10435:10437 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10424:10427 XORUnif.Substitution <> lftl def
+R10429:10431 XORUnif.Substitution <> tau:133 var
+R10433:10434 XORUnif.Substitution <> tl:134 var
+R10438:10439 XORUnif.Substitution <> tl:134 var
+R10540:10546 XORUnif.Substitution <> not_dom thm
+R10540:10546 XORUnif.Substitution <> not_dom thm
+R10584:10593 XORUnif.TheoryDef <> eq_dec_var def
+R10584:10593 XORUnif.TheoryDef <> eq_dec_var def
+prf 10856:10870 <> dom_vran_helper
+R10879:10881 XORUnif.Substitution <> sub def
+binder 10874:10876 <> tau:136
+R10888:10890 XORUnif.TheoryDef <> var def
+binder 10885:10885 <> x:137
+R10918:10923 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10897:10913 XORUnif.Substitution <> dom_vran_disjoint def
+R10915:10917 XORUnif.Substitution <> tau:136 var
+R10933:10938 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10924:10926 XORUnif.Substitution <> Dom def
+R10928:10930 XORUnif.Substitution <> tau:136 var
+R10932:10932 XORUnif.Substitution <> x:137 var
+R10954:10956 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10939:10941 XORUnif.Substitution <> lft def
+R10948:10950 XORUnif.Substitution <> tau:136 var
+R10952:10952 XORUnif.Substitution <> x:137 var
+R10943:10945 XORUnif.Substitution <> tau:136 var
+R10957:10959 XORUnif.Substitution <> tau:136 var
+R10961:10961 XORUnif.Substitution <> x:137 var
+R10992:10999 XORUnif.Substitution <> noop_lft thm
+R10992:10999 XORUnif.Substitution <> noop_lft thm
+R11019:11035 XORUnif.Substitution <> dom_vran_disjoint def
+R11077:11081 XORUnif.Substitution <> VRanC constr
+R11077:11081 XORUnif.Substitution <> VRanC constr
+R11103:11106 XORUnif.Substitution <> RanC constr
+R11103:11106 XORUnif.Substitution <> RanC constr
+prf 11133:11151 <> dom_vran_idempotent
+R11160:11162 XORUnif.Substitution <> sub def
+binder 11155:11157 <> tau:138
+R11189:11195 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11168:11184 XORUnif.Substitution <> dom_vran_disjoint def
+R11186:11188 XORUnif.Substitution <> tau:138 var
+R11196:11205 XORUnif.Substitution <> idempotent def
+R11207:11209 XORUnif.Substitution <> tau:138 var
+R11236:11245 XORUnif.Substitution <> idempotent def
+R11255:11271 XORUnif.Substitution <> dom_vran_disjoint def
+R11288:11298 XORUnif.Substitution <> compose_sub def
+R11307:11331 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R11307:11331 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R11354:11356 XORUnif.Decidable <> dcd def
+R11359:11361 XORUnif.Substitution <> Dom def
+R11354:11356 XORUnif.Decidable <> dcd def
+R11359:11361 XORUnif.Substitution <> Dom def
+R11382:11396 XORUnif.Substitution <> dom_vran_helper thm
+R11382:11396 XORUnif.Substitution <> dom_vran_helper thm
+R11419:11433 XORUnif.Substitution <> Id_on_vars_Noop thm
+R11440:11440 XORUnif.TheoryDef <> V constr
+R11419:11433 XORUnif.Substitution <> Id_on_vars_Noop thm
+R11440:11440 XORUnif.TheoryDef <> V constr
+R11463:11466 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11470:11470 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11467:11467 XORUnif.TheoryDef <> V constr
+R11463:11466 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11470:11470 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11467:11467 XORUnif.TheoryDef <> V constr
+R11486:11492 XORUnif.Substitution <> not_dom thm
+R11486:11492 XORUnif.Substitution <> not_dom thm
+prf 11545:11563 <> idempotent_dom_vram
+R11571:11573 XORUnif.Substitution <> sub def
+binder 11566:11568 <> tau:139
+R11593:11598 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11579:11588 XORUnif.Substitution <> idempotent def
+R11590:11592 XORUnif.Substitution <> tau:139 var
+R11599:11615 XORUnif.Substitution <> dom_vran_disjoint def
+R11617:11619 XORUnif.Substitution <> tau:139 var
+R11650:11659 XORUnif.Substitution <> idempotent def
+R11676:11692 XORUnif.Substitution <> dom_vran_disjoint def
+R11808:11810 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11786:11796 XORUnif.Substitution <> compose_sub def
+R11808:11810 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11786:11796 XORUnif.Substitution <> compose_sub def
+R11848:11858 XORUnif.Substitution <> compose_sub def
+R11872:11886 XORUnif.Substitution <> Id_on_vars_Noop thm
+R11872:11886 XORUnif.Substitution <> Id_on_vars_Noop thm
+R11903:11912 XORUnif.Substitution <> Id_on_vars def
+R11936:11950 XORUnif.Substitution <> Id_on_vars_Noop thm
+R11936:11950 XORUnif.Substitution <> Id_on_vars_Noop thm
+R11994:11996 XORUnif.Substitution <> Dom def
+prf 12038:12073 <> idempotent_dom_vram_disjoint_correct
+R12079:12081 XORUnif.Substitution <> sub def
+binder 12075:12077 <> tau:140
+R12101:12105 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R12087:12096 XORUnif.Substitution <> idempotent def
+R12098:12100 XORUnif.Substitution <> tau:140 var
+R12106:12122 XORUnif.Substitution <> dom_vran_disjoint def
+R12124:12126 XORUnif.Substitution <> tau:140 var
+R12156:12174 XORUnif.Substitution <> idempotent_dom_vram thm
+R12156:12174 XORUnif.Substitution <> idempotent_dom_vram thm
+R12187:12205 XORUnif.Substitution <> dom_vran_idempotent thm
+R12187:12205 XORUnif.Substitution <> dom_vran_idempotent thm
+def 12225:12231 <> leq_sub
+R12243:12245 XORUnif.Substitution <> sub def
+binder 12234:12236 <> eta:141
+binder 12238:12240 <> tau:142
+R12260:12266 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12272:12273 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 12267:12271 <> gamma:143
+R12274:12274 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12296:12299 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12275:12285 XORUnif.Substitution <> compose_sub def
+R12287:12291 XORUnif.Substitution <> gamma:143 var
+R12293:12295 XORUnif.Substitution <> eta:141 var
+R12300:12302 XORUnif.Substitution <> tau:142 var
+def 12317:12327 <> leq_sub_xor
+R12339:12341 XORUnif.Substitution <> sub def
+binder 12330:12332 <> eta:144
+binder 12334:12336 <> tau:145
+R12366:12368 XORUnif.TheoryDef <> var def
+binder 12364:12364 <> v:146
+R12377:12383 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12389:12390 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 12384:12388 <> gamma:147
+R12416:12419 XORUnif.TheoryDef <> :::x_'=='_x not
+R12392:12402 XORUnif.Substitution <> compose_sub def
+R12404:12408 XORUnif.Substitution <> gamma:147 var
+R12410:12412 XORUnif.Substitution <> eta:144 var
+R12415:12415 XORUnif.Substitution <> v:146 var
+R12420:12422 XORUnif.Substitution <> tau:145 var
+R12424:12424 XORUnif.Substitution <> v:146 var
+prf 12434:12445 <> leq_sub_refl
+R12454:12456 XORUnif.Substitution <> sub def
+binder 12448:12450 <> tau:148
+R12465:12471 XORUnif.Substitution <> leq_sub def
+R12473:12475 XORUnif.Substitution <> tau:148 var
+R12477:12479 XORUnif.Substitution <> tau:148 var
+R12498:12503 XORUnif.Substitution <> id_sub def
+R12498:12503 XORUnif.Substitution <> id_sub def
+R12512:12523 XORUnif.Substitution <> compose_id_l thm
+R12512:12523 XORUnif.Substitution <> compose_id_l thm
+prf 12538:12550 <> leq_sub_trans
+R12569:12571 XORUnif.Substitution <> sub def
+binder 12553:12555 <> eta:149
+binder 12557:12559 <> tau:150
+binder 12561:12565 <> gamma:151
+R12596:12604 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12581:12587 XORUnif.Substitution <> leq_sub def
+R12589:12591 XORUnif.Substitution <> eta:149 var
+R12593:12595 XORUnif.Substitution <> tau:150 var
+R12622:12631 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12605:12611 XORUnif.Substitution <> leq_sub def
+R12613:12615 XORUnif.Substitution <> tau:150 var
+R12617:12621 XORUnif.Substitution <> gamma:151 var
+R12632:12638 XORUnif.Substitution <> leq_sub def
+R12640:12642 XORUnif.Substitution <> eta:149 var
+R12644:12648 XORUnif.Substitution <> gamma:151 var
+R12676:12682 XORUnif.Substitution <> leq_sub def
+R12727:12737 XORUnif.Substitution <> compose_sub def
+R12727:12737 XORUnif.Substitution <> compose_sub def
+R12760:12776 XORUnif.Substitution <> compose_sub_assoc thm
+R12760:12776 XORUnif.Substitution <> compose_sub_assoc thm
+R12760:12776 XORUnif.Substitution <> compose_sub_assoc thm

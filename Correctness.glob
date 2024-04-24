@@ -1,0 +1,50 @@
+DIGEST 7d7db895d7401976a172117e05388bb2
+FXORUnif.Correctness
+R28:38 XORUnif.Unification <> <> lib
+prf 50:63 <> XORunif_solves
+R76:79 XORUnif.Unification <> eqns def
+binder 72:74 <> eqs:1
+R85:87 XORUnif.Substitution <> sub def
+binder 82:83 <> sb:2
+R121:126 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R111:113 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R93:106 XORUnif.Unification <> XORUnification def
+R108:110 XORUnif.Correctness <> eqs:1 var
+R114:117 Coq.Init.Datatypes <> Some constr
+R119:120 XORUnif.Correctness <> sb:2 var
+R145:147 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R127:137 XORUnif.Unification <> solves_eqns def
+R139:140 XORUnif.Correctness <> sb:2 var
+R142:144 XORUnif.Correctness <> eqs:1 var
+R148:151 Coq.Init.Datatypes <> true constr
+prf 178:189 <> XORunif_idpt
+R202:205 XORUnif.Unification <> eqns def
+binder 198:200 <> eqs:3
+R211:217 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R224:225 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R221:223 XORUnif.Substitution <> sub def
+binder 218:219 <> sb:4
+R254:259 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R244:246 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R226:239 XORUnif.Unification <> XORUnification def
+R241:243 XORUnif.Correctness <> eqs:3 var
+R247:250 Coq.Init.Datatypes <> Some constr
+R252:253 XORUnif.Correctness <> sb:4 var
+R260:269 XORUnif.Substitution <> idempotent def
+R271:272 XORUnif.Correctness <> sb:4 var
+prf 292:302 <> XORunif_mgu
+R315:318 XORUnif.Unification <> eqns def
+binder 311:313 <> eqs:5
+R324:330 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R337:338 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R334:336 XORUnif.Substitution <> sub def
+binder 331:332 <> sb:6
+R367:372 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R357:359 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R339:352 XORUnif.Unification <> XORUnification def
+R354:356 XORUnif.Correctness <> eqs:5 var
+R360:363 Coq.Init.Datatypes <> Some constr
+R365:366 XORUnif.Correctness <> sb:6 var
+R373:375 XORUnif.Unification <> mgu def
+R377:378 XORUnif.Correctness <> sb:6 var
+R380:382 XORUnif.Correctness <> eqs:5 var
